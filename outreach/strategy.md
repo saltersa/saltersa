@@ -54,6 +54,8 @@ Processing records requests is routine clerk work.
 **Ask:** the housing element and fair share plan, the adopted affordable housing trust fund
 spending plan, and the list of municipally owned property.
 
+**Template:** `templates/records_request.md`. Signed by Antonio, staff to staff.
+
 **Why this is the right opening move.** It produces the exact facts the campaign is missing.
 Right now Variant A of the cold email contains a bracket that says "verify this town's
 obligation before sending." Band 1 fills that bracket. Every later email stops being a guess.
@@ -159,6 +161,22 @@ depend on town records.
 
 ---
 
+## The channel nobody has counted: churches
+
+Spectrum runs two Adult Training Centers inside church buildings, North Haledon since 1989
+and Teaneck since 2006. That is not an odd arrangement to be fixed. It is a **proven model
+with two live examples and decades of operating history.**
+
+Churches hold underused real estate, are mission aligned, and can decide without a council
+vote, public notice, or a referendum. They move faster than municipalities by a wide margin.
+Spectrum also holds an Office of Faith Based Initiatives grant, so a state level faith
+relationship already exists.
+
+Nobody needs to be persuaded this works. It already works, twice. Run it as a parallel track
+to the municipal campaign rather than a fallback. Full reasoning in `operating_plan.md`.
+
+---
+
 ## Four ideas worth using
 
 **1. The open house is the strongest tool Spectrum has.** Phase 4 already calls for inviting
@@ -191,6 +209,16 @@ handed over by someone inside the building outperforms any cold list. Log every 
 | Naming a rent figure | Prohibited in outreach as of 2026-08-31. |
 | Contacting Westwood before the lease conflict is settled | Both Westwood rows frozen in `targets.csv`. |
 | Burning a mayor on a cold land ask | Mayors are Band 5, after evidence exists. |
+
+---
+
+## Read this next
+
+`operating_plan.md` is the harder document. It asks whether this campaign can actually
+deliver a building by 2027, and concludes that the schedule, not the outreach, is the biggest
+risk. It also covers funnel math, who does the work, decision gates, and the weekly review.
+
+If you read one thing after this page, read that.
 
 ---
 
