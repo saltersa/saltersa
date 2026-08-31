@@ -20,8 +20,14 @@ Each entry carries one of three levels. Only Level A may be used in outreach mat
 - **Level C, UNVERIFIED LEAD.** A name, number, or address that surfaced in search but
   that I could not attribute to a specific official page. Quarantined. Never to be used.
 
-**As of 2026-08-31 there are zero Level A entries.** The reason is recorded immediately
-below.
+A fourth level covers material Antonio supplies directly.
+
+- **Level D, INTERNAL VERIFIED.** A file supplied by Antonio. Authoritative for facts about
+  Spectrum itself. Not a substitute for Level A on anything about a government body.
+
+**As of 2026-08-31 there are zero Level A entries**, because no external site is reachable.
+There are two Level D sources, recorded in the next section. Every Spectrum fact used in the
+campaign now traces to one of them.
 
 ---
 
@@ -61,6 +67,45 @@ summaries. That is enough to identify which offices exist and to capture policy 
 but it is not enough to satisfy rule 1, because the underlying page cannot be read. Search
 was also intermittently unavailable during this session, returning "Web search error:
 unavailable" on at least one query.
+
+---
+
+## LEVEL D: INTERNAL SOURCES SUPPLIED BY ANTONIO
+
+### D1. `2026_Facility_List.xlsx`
+
+- Received 2026-08-31 from Antonio.
+- What it verified: 27 facilities across 18 municipalities in Bergen, Passaic, and Middlesex
+  counties. 179,933 square feet. Spectrum owns 23 of the 27. Year opened, square footage,
+  bedroom count, owner, lease term, lease expiration, and monthly lease payment per site.
+  Oldest site Closter ICF, 1983. Three day program sites are leased, at a combined $37,659
+  per month, $451,908 per year.
+- Superseded: the campaign brief listed five confirmed towns. The real number is 18. Bergen
+  14 towns and 19 facilities, Passaic 3 and 4, Middlesex 1 and 4.
+- Analysis written to `/outreach/facilities.md`, computed from the file rather than typed.
+- Open items raised: the Carver ATC lease in Westwood shows expiration 2023-12-31 on a 2026
+  list; the meaning of ATC; a program named Guttenberg carrying a Bergenfield address; and
+  empty Fire Suppression and Generator columns on every row.
+
+### D2. `Grant_Updates.xlsx`
+
+- Received 2026-08-31 from Antonio. Covers 2022 through 2027.
+- What it verified: funding by year, funder, program focus, amount spent, and balance.
+  Totals reconcile exactly for 2022, 2023, 2025, and 2026. The 2024 sheet states $517,493.00
+  against funder rows summing to $519,993.00, a $2,500.00 gap equal to one row the file
+  itself flags as uncertain.
+- Key finding: **no CDBG, HOME, NJHMFA, DCA, county community development, or municipal
+  affordable housing trust fund award appears anywhere in the file.** This was established by
+  searching every funder name and program note across all six sheets, not by assumption.
+- Key finding: Spectrum already administers public money. NJ Department of Labor $187,475.
+  Inclusive Healthy Communities $248,660, for work placing clients on Bergen County advisory
+  boards. Office of Faith Based Initiatives $10,000. Arts Institute of Middlesex County
+  $30,775.32.
+- Correction to the campaign brief: the brief refers to "The Arc of New Jersey contacts
+  already in the grant file." **The Arc of New Jersey does not appear in the grant file.** It
+  appears in the verified facts list only as the source of the Voices Award. Columbia Bank is
+  in the file, at $70,000 across 2022 to 2025.
+- Analysis written to `/outreach/grant_history.md`.
 
 ---
 
@@ -165,15 +210,26 @@ Blocked on the same access problem, listed so nothing is silently dropped:
 
 ## OPEN QUESTIONS FOR ANTONIO
 
-1. **Complete property list.** The verified facts list confirms group homes in Bergenfield,
-   Edison, Westwood, Elmwood Park, and Paramus, and instructs me to ask for the rest before
-   naming any other town. What is the complete list of towns where Spectrum operates
-   group homes, supervised apartments, day programs, or the intermediate care facility?
-   Tier 1 cannot be completed without it.
-2. **Grant file.** The verified facts reference "corporate and family foundations listed in
-   the grant file." That file is not in this workspace. Where is it, and should it be
-   added here for Phase 4?
-3. **Network access.** See the decision requested in the conversation.
+Answered on 2026-08-31: the complete property list and the grant file, both supplied. See
+Level D above.
+
+Still open, in priority order:
+
+1. **Westwood lease.** Carver ATC shows a lease expiring 2023-12-31 on a list dated 2026.
+   Holdover, renewed, or stale data? This decides whether Westwood is the most urgent target
+   in the campaign. Nothing goes to Westwood until this is answered.
+2. **Elizabeth Boyajian's phone and email**, and confirmation that she signs government
+   outreach with Antonio approving. Every template carries her name and a placeholder now.
+3. **Aggregate rent disclosure.** May the outreach tell a town that Spectrum pays $451,908 a
+   year in rent across three leased day program sites? Per site figures stay undisclosed.
+4. **The Arc of New Jersey.** Not in the grant file. Is there a separate contact record, or
+   does the Phase 4 letter request go to Columbia Bank only?
+5. **ATC.** Confirm it means Adult Training Center and that these are the day program sites.
+6. **Amboy 2024 row.** Should the $2,500.00 count toward the 2024 total?
+7. **Guttenberg program** carries a Bergenfield address. Legacy name or file error?
+8. **Fire suppression and generators.** Both columns are empty for all 27 rows. Unrecorded or
+   absent? It matters for a 24 hour nursing facility.
+9. **Network access.** Still blocked. No official contact can be verified from this session.
 
 ---
 

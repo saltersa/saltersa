@@ -22,9 +22,9 @@ time?
 If it is the wrong time, tell me when to come back and I will.
 
 The short version, in case it is useful. Spectrum for Living has run housing for people
-with developmental and physical disabilities in New Jersey since 1986. We already operate a
-group home in [TOWN]. Every person we house is low or moderate income. We are looking for a
-site for a home serving adults who need nursing care 24 hours a day.
+with developmental and physical disabilities in New Jersey since 1986, and in [TOWN] since
+[YEAR]. Every person we house is low or moderate income. We are looking for a site for a
+home serving adults who need nursing care 24 hours a day.
 
 Thank you,
 
@@ -90,10 +90,13 @@ Do two things instead.
 ## FILL BEFORE SENDING
 
 - `[TITLE] [LAST NAME]` from a verified official page only.
-- `[TOWN]` or `[COUNTY]`.
-- The "we already operate a group home in [TOWN]" line is true only for Bergenfield, Edison,
-  Westwood, Elmwood Park, and Paramus. Cut it for any other town.
-- `[SIGNATURE BLOCK]`: [ASK ANTONIO: who signs these?]
+- `[TOWN]` or `[COUNTY]`, and `[YEAR]` from `/outreach/facilities.md`.
+- `[SIGNATURE BLOCK]`:
+
+> Elizabeth Boyajian
+> Director of Development, Marketing, and Public Relations
+> Spectrum for Living
+> [PHONE] | [EMAIL]
 
 ---
 

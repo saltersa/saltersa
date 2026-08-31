@@ -7,10 +7,10 @@ once before dialing. Do not improvise extra facts on the phone.
 
 ## LIVE CALL, 30 SECONDS
 
-> Good morning, this is [NAME] from Spectrum for Living.
+> Good morning, this is Elizabeth Boyajian from Spectrum for Living.
 >
-> We run group homes for people with disabilities in Bergen, Passaic, and Middlesex
-> counties, including one right here in [TOWN]. We have been doing it since 1986.
+> We run 27 facilities across 18 towns in Bergen, Passaic, and Middlesex counties. We have
+> been in [TOWN] since [YEAR].
 >
 > I am calling about surplus town property. We are planning a home for adults who need
 > nursing care around the clock, and we need a site.
@@ -26,10 +26,10 @@ parcel. Get the meeting and get off the phone.
 
 ## VOICEMAIL, UNDER 20 SECONDS
 
-> Hi, this is [NAME] at Spectrum for Living, [PHONE NUMBER].
+> Hi, this is Elizabeth Boyajian at Spectrum for Living, [PHONE NUMBER].
 >
-> We run a group home in [TOWN], and we are looking for surplus town property for a new
-> one. I would like 20 minutes of your time.
+> We have operated in [TOWN] since [YEAR], and we are looking for surplus town property. I
+> would like 20 minutes of your time.
 >
 > My number again is [PHONE NUMBER]. Thank you.
 
@@ -81,16 +81,19 @@ Never estimate a figure on a call.
 
 ## FILL BEFORE DIALING
 
-- `[NAME]` and `[PHONE NUMBER]`: [ASK ANTONIO: who makes these calls, and from what
-  number?]
-- `[TOWN]`. The "one right here in [TOWN]" line is true only for Bergenfield, Edison,
-  Westwood, Elmwood Park, and Paramus. Cut it for any other town.
+- `[PHONE NUMBER]`: [ASK ANTONIO: what number should Elizabeth give out on these calls?]
+- `[TOWN]` and `[YEAR]` from `/outreach/facilities.md`. Spectrum operates in 18
+  municipalities. Do not use this script for a nineteenth town.
+- For Westwood, Teaneck, and North Haledon, use the leased site angle instead. Spectrum
+  rents in those three towns, which is a sharper opening. See `/outreach/facilities.md`.
 
 ---
 
 Sources checked:
 
 - Verified organization facts list supplied by Antonio, 2026-08-31, for founding year 1986,
-  roughly 600 people served annually, the three counties served, the five confirmed group
-  home towns, and the 24 hour nursing care model.
+  roughly 600 people served annually, the three counties served, and the 24 hour nursing
+  care model.
+- `2026_Facility_List.xlsx`, 2026-08-31, for 27 facilities, 18 municipalities, the per town
+  opening years, and the three leased sites. See `/outreach/facilities.md`.
 - No external URL was reachable from this environment. See `/outreach/sources.md`.

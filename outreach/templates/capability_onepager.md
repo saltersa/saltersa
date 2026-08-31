@@ -1,15 +1,18 @@
 # Spectrum for Living
 
-**Housing and care for people that other providers turn away.**
+**Housing and care for people other providers turn away.**
 
 ---
 
 **Who we are.** Spectrum for Living has served people with developmental and physical
 disabilities in New Jersey since 1986. That is 40 years.
 
-**Our size.** We serve about 600 people a year across Bergen, Passaic, and Middlesex
-counties. Our annual budget is $48,907,538. Charity Navigator rates us 4 stars, its
-highest rating.
+**Our size.** We serve about 600 people a year. Our annual budget is $48,907,538. Charity
+Navigator rates us 4 stars, its highest rating.
+
+**Our footprint.** We run 27 facilities in 18 New Jersey municipalities across Bergen,
+Passaic, and Middlesex counties. That is 179,933 square feet. **We own 23 of the 27
+outright.** Our oldest site, the Closter intermediate care facility, opened in 1983.
 
 **What we run.**
 
@@ -21,46 +24,53 @@ highest rating.
 - Clinical and case management
 - Day programs, including our new Day Habilitation Without Walls program
 
-**Where we already operate.** We run group homes in Bergenfield, Edison, Westwood,
-Elmwood Park, and Paramus. In those towns we are an established neighbor, not a newcomer.
+**Who we house.** Every person we house is low or moderate income. All are Medicaid funded.
+That is 100 percent, not a share.
 
-**Who we house.** Every person we house is low or moderate income. All of them are
-Medicaid funded. That is 100 percent, not a share.
+**We already handle public money.** We have received $187,475 in New Jersey Department of
+Labor training grants, and $248,660 through the Inclusive Healthy Communities program to
+place the people we serve on Bergen County advisory boards. We report on public funds and
+we meet the terms.
 
-**Our record.** The Arc of New Jersey Voices Award. The NJACP STARS Award in 2026.
-Coverage in ROI-NJ and NorthJersey.com. We take part in Bergen County Art in the Park.
+**We build.** The Chinery Foundation has committed $750,000 to the Charise Chinery
+Apartments. Columbia Bank has given $70,000 since 2022 for roofs, HVAC, and equipment.
 
-**What we are building next.** A $1 million group home for adults who are medically
-fragile and need nursing care 24 hours a day. We are targeting 2027. Housing at this
-level of care is very hard to run. We already run it.
+**Our record.** The Arc of New Jersey Voices Award. The NJACP STARS Award in 2026. Coverage
+in ROI-NJ and NorthJersey.com. We take part in Bergen County Art in the Park.
 
-**Why a town or county would work with us.** We take on the housing that is hardest to
-build and hardest to operate. We bring the care staff, the clinical model, and 40 years
-of operating history. We are looking for land and for partners.
+**What we are building next.** A $1 million group home for adults who are medically fragile
+and need nursing care 24 hours a day. We are targeting 2027. Housing at this level of care
+is very hard to run. We already run it.
 
 ---
 
 ## Our ask
 
-**Give us 20 minutes.** We will show you what a Spectrum home looks like, and where it
-could fit on property you already own.
+**Give us 20 minutes.** We will show you what a Spectrum home looks like, and where it could
+fit on property you already own.
 
 ---
 
-**Contact:** [ASK ANTONIO: which name, title, phone, and email should appear on outreach
-material? Salvador Moran as CEO, or a development or real estate lead?]
+**Elizabeth Boyajian**
+Director of Development, Marketing, and Public Relations
+Spectrum for Living
+[PHONE] | [EMAIL]
 
 ---
 
 Sources checked:
 
-- Verified organization facts list supplied by Antonio, 2026-08-31. Every figure above
-  comes from that list: founding year 1986, roughly 600 people served annually, budget
-  $48,907,538, Charity Navigator 4 stars, the service list, the five confirmed group home
-  towns, the awards and press, the 100 percent low and moderate income figure, and the
-  $1 million medical group home targeted for 2027.
-- No external URL was reachable from this environment. See `/outreach/sources.md` for the
-  egress block record.
+- Verified organization facts list supplied by Antonio, 2026-08-31: founding year 1986,
+  roughly 600 people served annually, budget $48,907,538, Charity Navigator 4 stars, the
+  service list, the awards and press, the 100 percent low and moderate income figure, and
+  the $1 million medical group home targeted for 2027.
+- `2026_Facility_List.xlsx`, supplied by Antonio, 2026-08-31: 27 facilities, 18
+  municipalities, 179,933 square feet, 23 of 27 owned by Spectrum, Closter ICF opened 1983.
+  See `/outreach/facilities.md`.
+- `Grant_Updates.xlsx`, supplied by Antonio, 2026-08-31: NJ Department of Labor $187,475,
+  Inclusive Healthy Communities $248,660, Chinery Foundation $750,000, Columbia Bank
+  $70,000. See `/outreach/grant_history.md`.
+- No external URL was reachable from this environment. No claim on this page depends on one.
 
-Note: no claim on this page depends on external research. The one open item is the contact
-block, flagged above.
+Open item: [ASK ANTONIO: phone number and email address for Elizabeth Boyajian, and confirm
+she is the right signer for government outreach.]

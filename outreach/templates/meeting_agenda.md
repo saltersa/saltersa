@@ -28,9 +28,12 @@ Three sentences, no more.
 > rating. We run group homes, supervised apartments, and an intermediate care facility with
 > 24 hour skilled nursing.
 
-If they already host a Spectrum home, add one line: we have been your neighbor in [TOWN]
-for [ASK ANTONIO: how long has each home been open in Bergenfield, Edison, Westwood,
-Elmwood Park, and Paramus?].
+Then one line naming the local tie, taken from `/outreach/facilities.md`:
+
+> We have been in [TOWN] since [YEAR].
+
+Every Tier 1 town has a real year. Use it. It is the single most disarming sentence in the
+meeting, because it says you are already a neighbor.
 
 ### 0:05 to 0:12, Their situation, listen
 
