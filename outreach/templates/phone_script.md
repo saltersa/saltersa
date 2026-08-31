@@ -7,7 +7,7 @@ once before dialing. Do not improvise extra facts on the phone.
 
 ## LIVE CALL, 30 SECONDS
 
-> Good morning, this is Elizabeth Boyajian from Spectrum for Living.
+> Good morning, this is [YOUR NAME] from Spectrum for Living.
 >
 > We run 27 facilities across 18 towns in Bergen, Passaic, and Middlesex counties. We have
 > been in [TOWN] since [YEAR].
@@ -26,7 +26,7 @@ parcel. Get the meeting and get off the phone.
 
 ## VOICEMAIL, UNDER 20 SECONDS
 
-> Hi, this is Elizabeth Boyajian at Spectrum for Living, [PHONE NUMBER].
+> Hi, this is [YOUR NAME] at Spectrum for Living, [PHONE NUMBER].
 >
 > We have operated in [TOWN] since [YEAR], and we are looking for surplus town property. I
 > would like 20 minutes of your time.
@@ -81,11 +81,15 @@ Never estimate a figure on a call.
 
 ## FILL BEFORE DIALING
 
-- `[PHONE NUMBER]`: [ASK ANTONIO: what number should Elizabeth give out on these calls?]
+- `[YOUR NAME]` and `[PHONE NUMBER]`: calls are made by Antonio or Salvador Moran, not by
+  Elizabeth Boyajian. Settled 2026-08-31. Salvador Moran calls elected officials, Antonio
+  calls staff. See the signature rule in `cold_email.md`.
+- Never state what Spectrum pays in rent, on a call or in writing. Settled 2026-08-31.
 - `[TOWN]` and `[YEAR]` from `/outreach/facilities.md`. Spectrum operates in 18
   municipalities. Do not use this script for a nineteenth town.
-- For Westwood, Teaneck, and North Haledon, use the leased site angle instead. Spectrum
-  rents in those three towns, which is a sharper opening. See `/outreach/facilities.md`.
+- For Teaneck and North Haledon, use the Adult Training Center angle instead: Spectrum does
+  not own those buildings, which is a sharper opening. **Westwood is on hold** pending the
+  lease conflict in `/outreach/facilities.md`.
 
 ---
 

@@ -93,19 +93,22 @@ Do two things instead.
 - `[TOWN]` or `[COUNTY]`, and `[YEAR]` from `/outreach/facilities.md`.
 - `[SIGNATURE BLOCK]`:
 
-> Elizabeth Boyajian
-> Director of Development, Marketing, and Public Relations
+> Salvador Moran, Chief Executive Officer, for elected officials
+> or [ANTONIO: FULL NAME], [ANTONIO: TITLE], for staff
 > Spectrum for Living
 > [PHONE] | [EMAIL]
+
+See the signature rule in `cold_email.md`. Elizabeth Boyajian does not sign government
+outreach.
 
 ---
 
 Sources checked:
 
 - Verified organization facts list supplied by Antonio, 2026-08-31, for founding year 1986,
-  roughly 600 people served annually, the three counties served, the service list, the five
-  confirmed group home towns, the 100 percent low and moderate income figure, and the
-  $1 million medical group home targeted for 2027.
+  roughly 600 people served annually, the three counties served, the service list, the 100
+  percent low and moderate income figure, and the $1 million medical group home targeted for
+  2027. Town counts and opening years come from `/outreach/facilities.md`, 18 municipalities.
 - No claim in this template depends on external research, and no town specific obligation or
   trust fund claim appears here. See `/outreach/sources.md`.
 - No external URL was reachable from this environment.

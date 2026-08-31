@@ -55,9 +55,18 @@ Both values come from the table below. Nothing else about a town may be asserted
 
 ---
 
-## The three leased day program sites
+## The three Adult Training Centers Spectrum does not own
 
-This is the sharpest ask in the campaign, because it is a number a town or county can act on.
+> ## INTERNAL ONLY. DO NOT DISCLOSE ANY FIGURE IN THIS SECTION.
+>
+> Antonio ruled on 2026-08-31 that Spectrum will not tell any town or county what it
+> currently pays in rent. The reason is negotiating position: Spectrum wants rental rates
+> from municipalities, and revealing what it pays today anchors the price. The rent columns
+> below exist for internal planning only. No dollar figure from this table appears in any
+> template, and none may be added.
+>
+> What outreach **may** say is that Spectrum does not own these three buildings. That is
+> supported by the Landlord and Owner column, which names a non Spectrum owner for each.
 
 | Site | Town | Landlord | Term | Expires | Monthly |
 |---|---|---|---|---|---|
@@ -65,21 +74,61 @@ This is the sharpest ask in the campaign, because it is a number a town or count
 | N. Haledon ATC | North Haledon | High Mountain Church Darren Ojeda (Pastor) | 5 years | 2030-01-31 | $10,500 |
 | Teaneck ATC | Teaneck | Grace Lutheran Church Lynn/Peggy (Pastor) | 5 years | 2030-03-31 | $13,850 |
 
-**Spectrum pays $37,659 a month, $451,908 a year, to rent day program space.**
-Two of the three sites are rented from churches. A municipal or county building would
-convert that rent into program spending.
+Two of the three are rented from churches. All three are Adult Training Centers, which
+Antonio confirmed on 2026-08-31 is what ATC stands for.
 
-> **FLAG FOR ANTONIO.** The Carver ATC lease in Westwood shows an expiration of
-> 2023-12-31 on a list dated 2026. Is Spectrum in holdover there, has it been renewed,
-> or is the date stale? This changes whether Westwood is the most urgent target in the
-> campaign or an ordinary one. Nothing will be sent to Westwood until you answer.
+---
+
+## UNRESOLVED CONFLICT: does the Carver ATC lease exist?
+
+**This is blocking. Nothing goes to Westwood until it is settled.**
+
+On 2026-08-31 Antonio said: "There is no lease listed in the facility document."
+
+The file says otherwise. These are the exact cells, read straight from
+`2026_Facility_List.xlsx`, sheet `Facilities`. Row 2 holds the headers, so row 4 is the
+Carver ATC record.
+
+| Cell | Header in row 2 | Value in row 4 |
+|---|---|---|
+| A4 | PROGRAM | `Carver ATC` |
+| F4 | Landlord/Owner | `Debbie Friend` |
+| G4 | Lease Term | `5 Years` |
+| H4 | Lease Expiration | `2023-12-31` |
+| I4 | Monthly Lease payment | `13309` |
+
+Two other rows carry the same three lease fields: N. Haledon ATC at row 20, expiring
+2030-01-31, and Teaneck ATC at row 27, expiring 2030-03-31. There are no hidden rows or
+columns in this sheet and no cell comments. I checked.
+
+So the document does list leases. Which of these is true?
+
+1. **The data is stale.** The Carver lease ended 2023-12-31 and the row was never cleaned
+   up. If so, what is the arrangement in Westwood now?
+2. **You meant something narrower**, for example that the actual signed lease agreement is
+   not attached to this spreadsheet, or that Westwood GH, the group home, has no lease
+   because Spectrum owns it. Both would be correct statements.
+3. **You are working from a different version of the file** than the one uploaded here.
+
+Campaign rule 6 says that when two sources conflict I stop and ask rather than pick one. I
+am not deleting the lease data and I am not asserting it. Both stay flagged until you say
+which reading is right.
+
+**What is not in doubt:** the Landlord and Owner column names a non Spectrum owner for all
+three Adult Training Centers. Outreach can safely say Spectrum does not own those buildings
+without relying on any lease field.
 
 ---
 
 ## Open questions on this file
 
-1. [ASK ANTONIO: does ATC stand for Adult Training Center, and are these the day
-   program sites? The word is used but never expanded in the file.]
+Answered 2026-08-31: **ATC means Adult Training Center.** Five sites carry the label: Carver,
+Edison, N. Haledon, Ringwood, and Teaneck. Spectrum owns the Edison and Ringwood centers and
+does not own the other three.
+
+Still open:
+
+1. **The Carver ATC lease conflict above.** Blocking for Westwood.
 2. [ASK ANTONIO: the program named "Guttenberg" has a Bergenfield address, 143 Mackay
    Dr. Is that a naming legacy, or an error in the file?]
 3. [ASK ANTONIO: county assignments below are derived from municipality names, not from

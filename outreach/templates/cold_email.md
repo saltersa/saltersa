@@ -1,10 +1,10 @@
 # Cold Email Templates
 
-Four variants: township, county office, housing authority, and leased day program site.
+Four variants: township, county office, housing authority, and Adult Training Center.
 Each body is under 150 words. Each opens with the recipient's problem, not with us. Each
 ends with one ask, a 20 minute call.
 
-**Signer:** Elizabeth Boyajian, Director of Development, Marketing, and Public Relations.
+**Signer:** Antonio or Salvador Moran. See the signature rule below.
 **Approver:** Antonio. Nothing sends without his explicit approval.
 
 ---
@@ -25,10 +25,15 @@ obtained.** No variant below asserts it. Do not add it until it is verified and 
 facility names are in that file, computed from the 2026 facility list. Spectrum operates in
 18 municipalities. Do not write to a nineteenth town using these templates.
 
-**4. Variant D discloses aggregate rent.** [ASK ANTONIO: are you comfortable telling a town
-that Spectrum pays $451,908 a year in rent across its three leased day program sites? It
-proves we are a paying tenant rather than a charity case, but it also shows a town what we
-can afford. Per site figures are deliberately not disclosed.]
+**4. No rent figure may appear in any outreach. Settled 2026-08-31.** Antonio ruled that
+Spectrum will not disclose what it currently pays, because Spectrum wants rental rates from
+municipalities and revealing today's cost anchors the price. Variant D was rewritten to
+remove every dollar figure. Do not put one back. The internal figures live in
+`/outreach/facilities.md` under an internal only heading.
+
+**5. Westwood is on hold.** There is an unresolved conflict about whether the Carver ATC
+lease exists. See `/outreach/facilities.md`. Variant D may go to Teaneck and North Haledon.
+It may not go to Westwood until Antonio settles it.
 
 ---
 
@@ -112,27 +117,28 @@ Thank you,
 
 ---
 
-## VARIANT D: LEASED DAY PROGRAM SITE
+## VARIANT D: ADULT TRAINING CENTER SPECTRUM DOES NOT OWN
 
-**Use only for Westwood, Teaneck, and North Haledon.** These are the three towns where
-Spectrum rents rather than owns. Check `/outreach/facilities.md` before sending, and read
-the Westwood lease flag there first.
+**Approved for Teaneck and North Haledon. Westwood is on hold**, pending the lease conflict
+in `/outreach/facilities.md`. Read that first.
 
-**Subject:** 20 minutes about our [TOWN] day program
+No dollar figure appears here and none may be added. The ask is a rental conversation.
+
+**Subject:** 20 minutes about our [TOWN] Adult Training Center
 
 Dear [TITLE] [LAST NAME],
 
-Spectrum for Living has run a day program in [TOWN] since [YEAR]. We do not own the
-building. We rent it.
+Spectrum for Living has run an Adult Training Center in [TOWN] since [YEAR]. It is one of
+the few buildings we do not own.
 
-Across our three rented day program sites we pay $451,908 a year in rent. That is money
-leaving our programs. We would rather spend it on services, and we would rather be a
-permanent part of [TOWN].
+Everywhere else, we own. We own 23 of our 27 buildings across 18 New Jersey municipalities,
+going back to 1986. We would rather be a permanent part of [TOWN] than a tenant in it.
 
-Everywhere else we operate, we own. We own 23 of our 27 buildings, in 18 New Jersey
-municipalities, going back to 1986.
+If the town owns a building that is underused, we would like to talk about renting it from
+you. We have served about 600 people a year for 40 years, we administer state and county
+grant funding, and we are a long term tenant.
 
-If [TOWN] owns a building that is underused, would you give me 20 minutes to talk about it?
+Could we have 20 minutes?
 
 Thank you,
 
@@ -142,14 +148,31 @@ Thank you,
 
 ## SIGNATURE BLOCK
 
-Use this exact block in every variant.
+Government outreach is signed by Antonio or by Salvador Moran. **Not by Elizabeth Boyajian.**
+Settled 2026-08-31. Elizabeth's name has been removed from every template.
 
-> Elizabeth Boyajian
-> Director of Development, Marketing, and Public Relations
+**Proposed rule, one line, no thinking required at send time:**
+
+- **Salvador Moran signs elected officials.** Mayors, and county executives. Chief executive
+  to chief executive is the right altitude, and it signals the organization is serious.
+- **Antonio signs staff.** Administrators, clerks, department directors, housing authority
+  directors. Staff to staff gets a faster reply than a CEO letter, which often gets routed
+  and delayed.
+
+That split covers all 51 rows in `targets.csv` with no judgment calls.
+
+> Salvador Moran
+> Chief Executive Officer
 > Spectrum for Living
 > [PHONE] | [EMAIL]
 
-[ASK ANTONIO: phone and email for Elizabeth, and confirm she signs government outreach.]
+> [ANTONIO: FULL NAME]
+> [ANTONIO: TITLE]
+> Spectrum for Living
+> [PHONE] | [EMAIL]
+
+[ASK ANTONIO: confirm the split above, and give me your full name and title as they should
+appear, plus the phone and email for each of you.]
 
 ---
 
@@ -169,8 +192,8 @@ Sources checked:
   roughly 600 people served annually, the 100 percent low and moderate income figure, and
   the $1 million medical group home targeted for 2027.
 - `2026_Facility_List.xlsx`, 2026-08-31: 27 facilities, 18 municipalities, 23 owned, the per
-  county counts, and the $451,908 annual rent across the three leased sites. Computed in
-  `/outreach/facilities.md`.
+  county counts, and which three Adult Training Centers Spectrum does not own. Computed in
+  `/outreach/facilities.md`. Rent figures are internal only and appear in no template.
 - `Grant_Updates.xlsx`, 2026-08-31: NJ Department of Labor $187,475. See
   `/outreach/grant_history.md`.
 - Fourth Round framing in Variant A: **unverified.** Logged at Level B in

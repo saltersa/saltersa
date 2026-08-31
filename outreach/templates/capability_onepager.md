@@ -22,7 +22,8 @@ outright.** Our oldest site, the Closter intermediate care facility, opened in 1
 - Respite care
 - Accessible housing
 - Clinical and case management
-- Day programs, including our new Day Habilitation Without Walls program
+- Day programs at five Adult Training Centers, plus our new Day Habilitation Without Walls
+  program
 
 **Who we house.** Every person we house is low or moderate income. All are Medicaid funded.
 That is 100 percent, not a share.
@@ -51,8 +52,8 @@ fit on property you already own.
 
 ---
 
-**Elizabeth Boyajian**
-Director of Development, Marketing, and Public Relations
+**Salvador Moran**
+Chief Executive Officer
 Spectrum for Living
 [PHONE] | [EMAIL]
 
@@ -72,5 +73,5 @@ Sources checked:
   $70,000. See `/outreach/grant_history.md`.
 - No external URL was reachable from this environment. No claim on this page depends on one.
 
-Open item: [ASK ANTONIO: phone number and email address for Elizabeth Boyajian, and confirm
-she is the right signer for government outreach.]
+Open item: [ASK ANTONIO: phone and email for Salvador Moran. Government outreach is signed by
+Antonio or Salvador Moran, settled 2026-08-31. This leave behind carries the CEO.]

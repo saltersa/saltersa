@@ -78,14 +78,21 @@ unavailable" on at least one query.
 - What it verified: 27 facilities across 18 municipalities in Bergen, Passaic, and Middlesex
   counties. 179,933 square feet. Spectrum owns 23 of the 27. Year opened, square footage,
   bedroom count, owner, lease term, lease expiration, and monthly lease payment per site.
-  Oldest site Closter ICF, 1983. Three day program sites are leased, at a combined $37,659
-  per month, $451,908 per year.
+  Oldest site Closter ICF, 1983. Three of the five Adult Training Centers are owned by
+  someone other than Spectrum. Rent figures are internal only and appear in no template,
+  per Antonio's ruling of 2026-08-31.
 - Superseded: the campaign brief listed five confirmed towns. The real number is 18. Bergen
   14 towns and 19 facilities, Passaic 3 and 4, Middlesex 1 and 4.
 - Analysis written to `/outreach/facilities.md`, computed from the file rather than typed.
-- Open items raised: the Carver ATC lease in Westwood shows expiration 2023-12-31 on a 2026
-  list; the meaning of ATC; a program named Guttenberg carrying a Bergenfield address; and
-  empty Fire Suppression and Generator columns on every row.
+- ATC confirmed by Antonio 2026-08-31 as Adult Training Center.
+- **Unresolved conflict.** Antonio said on 2026-08-31 that no lease is listed in the facility
+  document. Cells G4, H4, and I4 of the `Facilities` sheet do list one for Carver ATC: term
+  `5 Years`, expiration `2023-12-31`, monthly `13309`. N. Haledon and Teaneck carry the same
+  three fields with 2030 expirations. There are no hidden rows, hidden columns, or cell
+  comments in the sheet. Per campaign rule 6 this is not resolved by me. Westwood outreach is
+  frozen until Antonio rules. Detail in `/outreach/facilities.md`.
+- Open items: a program named Guttenberg carrying a Bergenfield address, and empty Fire
+  Suppression and Generator columns on every row.
 
 ### D2. `Grant_Updates.xlsx`
 
@@ -218,10 +225,9 @@ Still open, in priority order:
 1. **Westwood lease.** Carver ATC shows a lease expiring 2023-12-31 on a list dated 2026.
    Holdover, renewed, or stale data? This decides whether Westwood is the most urgent target
    in the campaign. Nothing goes to Westwood until this is answered.
-2. **Elizabeth Boyajian's phone and email**, and confirmation that she signs government
-   outreach with Antonio approving. Every template carries her name and a placeholder now.
-3. **Aggregate rent disclosure.** May the outreach tell a town that Spectrum pays $451,908 a
-   year in rent across three leased day program sites? Per site figures stay undisclosed.
+2. **Antonio's full name and title**, plus phone and email for Antonio and for Salvador
+   Moran. Answered 2026-08-31: Elizabeth Boyajian does not sign government outreach. Proposed
+   split, awaiting confirmation: Salvador Moran signs elected officials, Antonio signs staff.
 4. **The Arc of New Jersey.** Not in the grant file. Is there a separate contact record, or
    does the Phase 4 letter request go to Columbia Bank only?
 5. **ATC.** Confirm it means Adult Training Center and that these are the day program sites.
