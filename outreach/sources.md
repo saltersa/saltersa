@@ -225,9 +225,11 @@ Still open, in priority order:
 1. **Westwood lease.** Carver ATC shows a lease expiring 2023-12-31 on a list dated 2026.
    Holdover, renewed, or stale data? This decides whether Westwood is the most urgent target
    in the campaign. Nothing goes to Westwood until this is answered.
-2. **Antonio's full name and title**, plus phone and email for Antonio and for Salvador
-   Moran. Answered 2026-08-31: Elizabeth Boyajian does not sign government outreach. Proposed
-   split, awaiting confirmation: Salvador Moran signs elected officials, Antonio signs staff.
+2. **Antonio's job title**, his phone, and the phone and email for Salvador Moran. Resolved
+   2026-08-31 from the connected Outlook account: Antonio Salters,
+   asalters@spectrumforliving.org. The Microsoft 365 profile returns no job title. Salvador
+   Moran's address has not been guessed and will not be. Proposed signing split awaiting
+   confirmation: Salvador Moran signs elected officials, Antonio signs staff.
 4. **The Arc of New Jersey.** Not in the grant file. Is there a separate contact record, or
    does the Phase 4 letter request go to Columbia Bank only?
 5. **ATC.** Confirm it means Adult Training Center and that these are the day program sites.

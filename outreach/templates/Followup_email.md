@@ -94,7 +94,7 @@ Do two things instead.
 - `[SIGNATURE BLOCK]`:
 
 > Salvador Moran, Chief Executive Officer, for elected officials
-> or [ANTONIO: FULL NAME], [ANTONIO: TITLE], for staff
+> or Antonio Salters, [ANTONIO: TITLE], asalters@spectrumforliving.org, for staff
 > Spectrum for Living
 > [PHONE] | [EMAIL]
 

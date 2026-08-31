@@ -166,13 +166,16 @@ That split covers all 51 rows in `targets.csv` with no judgment calls.
 > Spectrum for Living
 > [PHONE] | [EMAIL]
 
-> [ANTONIO: FULL NAME]
+> Antonio Salters
 > [ANTONIO: TITLE]
 > Spectrum for Living
-> [PHONE] | [EMAIL]
+> asalters@spectrumforliving.org | [PHONE]
 
-[ASK ANTONIO: confirm the split above, and give me your full name and title as they should
-appear, plus the phone and email for each of you.]
+Name and email confirmed 2026-08-31 from the connected Outlook account. The Microsoft 365
+profile returns no job title, so that line is still open.
+
+[ASK ANTONIO: confirm the signing split above, your job title as it should appear, your
+phone, and the phone and email for Salvador Moran. His address has not been guessed.]
 
 ---
 
