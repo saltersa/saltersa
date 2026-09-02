@@ -10,8 +10,18 @@ Short answer: the outreach is sound. The plan around it has six holes. Two are s
 
 ## THE FINDING THAT OUTRANKS EVERYTHING ELSE
 
-**Today is 31 August 2026. The priority project is targeted for calendar year 2027. There is
-no site.**
+**ANSWERED 2026-09-02. Antonio confirms 2027 means occupancy by 31 December 2027.**
+
+That is 485 days from today, and the arithmetic does not work for a new build. Only an
+existing building that needs renovation fits, and it must be under site control by roughly
+1 December 2026, which is thirteen weeks away.
+
+**The full analysis and the resulting pivot from land to buildings is in `schedule.md`. Read
+it before the rest of this page.**
+
+The original framing of this risk follows, and still holds.
+
+**The priority project is targeted for 2027. There is no site.**
 
 The 90 day campaign ends around the end of November 2026. If "2027" means people living in
 the building, then site control, design, approvals, construction, and licensure all have to
@@ -76,14 +86,11 @@ resignations. A person in the building telling you their own email address does 
 phone number is self verifying: if you dial it and the borough answers as the borough, you
 have confirmed you reached the right government.
 
-> **[DECISION NEEDED FROM ANTONIO]** Campaign rule 1 currently requires that every contact
-> come from an official government website. I will not quietly reinterpret your rule.
+> **APPROVED BY ANTONIO, 2026-09-02.** Rule 1 now accepts a contact verified by phone, where
+> the caller logs the date, time, number dialled, who answered, and what was said, in
+> `sources.md`. No guessed names and no inferred email formats, which is unchanged.
 >
-> **Proposed amendment:** a contact is verified if a person reached at the municipality's
-> publicly listed main number states the name and email, and the caller logs the date, the
-> time, the number dialled, who answered, and what was said, in `sources.md`.
->
-> Approve this and the campaign starts this week instead of waiting.
+> The campaign is unblocked. `templates/verification_call.md` is the script.
 
 ### 3. The funnel is too narrow to reliably produce one site
 

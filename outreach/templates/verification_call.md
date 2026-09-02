@@ -3,10 +3,10 @@
 **The first action of the campaign.** Seventeen calls, one morning, and 51 rows of
 `TO VERIFY` start becoming real people.
 
-> **DO NOT USE THIS UNTIL ANTONIO APPROVES THE RULE AMENDMENT.** Campaign rule 1 currently
-> requires that contacts come from an official government website. This script gets them by
-> phone instead. The proposed amendment is in `operating_plan.md`. Until it is approved, this
-> file is a plan, not a permission.
+> **APPROVED BY ANTONIO, 2026-09-02.** Campaign rule 1 now accepts a contact verified by
+> phone, provided the call is logged with date, time, number dialled, who answered, and what
+> was said. Everything else in rule 1 stands: no guessed names, no inferred email formats.
+> This script is cleared for use.
 
 ---
 

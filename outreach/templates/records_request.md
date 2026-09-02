@@ -24,7 +24,7 @@ I am writing to request copies of three public records.
 
 1. The current housing element and fair share plan.
 2. The adopted affordable housing trust fund spending plan.
-3. The list of real property owned by [TOWN].
+3. The list of real property owned by [TOWN], including any vacant or underused buildings.
 
 Electronic copies are fine. If any of these is already posted online, a link works just as
 well and saves you the trouble.
@@ -49,6 +49,9 @@ asalters@spectrumforliving.org | [PHONE]
 
 **Three items, numbered.** A clerk can tick them off. A paragraph of prose asking for
 "information about housing" cannot be actioned and gets set aside.
+
+**"Including any vacant or underused buildings."** Added 2026-09-02. The occupancy deadline
+rules out new construction, so buildings matter more than land now. See `schedule.md`.
 
 **"A link works just as well."** Lowers the cost of replying to almost nothing. Many towns
 already have these posted, and the clerk gets to close the request in one line.
@@ -77,8 +80,8 @@ it in reserve for a town that ignores you.]
 | What arrives | What it means | Next move |
 |---|---|---|
 | All three documents | Responsive town, and you now have real facts | Variant A to the administrator, bracket filled with their own numbers |
-| Property list only | Land conversation is open, housing plan may not exist yet | Variant A, lead with a specific parcel |
-| Housing plan only, no property list | They plan but hold little land | Lower priority for a site, still good for a partnership or trust fund ask |
+| Property list only | Building conversation is open, housing plan may not exist yet | Variant A, lead with a specific building |
+| Housing plan only, no property list | They plan but hold little property | Lower priority for a site, still good for a partnership or trust fund ask |
 | A request form to complete | Normal, not a brush off | Complete it same day |
 | Nothing after two weeks | Unresponsive, or it went to the wrong person | One phone call using `phone_script.md`, then deprioritise |
 
@@ -88,7 +91,8 @@ Log every outcome in `tracker.csv` the day it happens.
 
 ## FILL BEFORE SENDING
 
-- `[TITLE] [LAST NAME]` from a verified source only. Still `TO VERIFY` for all 18 towns.
+- `[TITLE] [LAST NAME]` verified by phone using `templates/verification_call.md`, approved
+  2026-09-02. All 18 towns still read `TO VERIFY` until those calls are made.
 - `[TOWN]` and `[YEAR]` from `/outreach/facilities.md`.
 - `[ANTONIO: TITLE]` and `[PHONE]`.
 - Westwood is frozen. See the lease conflict in `/outreach/facilities.md`.

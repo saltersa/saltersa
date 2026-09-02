@@ -4,6 +4,13 @@ Written 2026-08-31. Read this before sending anything.
 
 ---
 
+> **UPDATED 2026-09-02.** Antonio confirmed occupancy is due 31 December 2027. That rules out
+> new construction and changes the ask from land to **existing buildings**. The target order,
+> the bands, and the reply logic below are unchanged. The noun is what changed. Read
+> `schedule.md` for the arithmetic.
+
+---
+
 ## The strategy in one sentence
 
 **Ask for information first, money second, land third**, because that is the order in which

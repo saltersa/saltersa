@@ -1,7 +1,7 @@
 # Spectrum for Living, Government Outreach Campaign
 
 Land, housing partnerships, and funding from townships and counties in Bergen, Passaic, and
-Middlesex. Built 2026-08-31.
+Middlesex. Built 2026-08-31, updated 2026-09-02.
 
 ---
 
@@ -9,11 +9,13 @@ Middlesex. Built 2026-08-31.
 
 **If you read three things, read these, in this order.**
 
-1. **`operating_plan.md`** Can this campaign actually deliver a building by 2027? The honest
-   answer, and the six things that need fixing. Read this first even though it is not the
-   plan, because it changes what the plan should be.
-2. **`run_sheet.md`** What happens on Monday. Week by week, owner by owner, with counts.
-3. **`strategy.md`** Why the targets are in this order and what to say to each.
+1. **`schedule.md`** 485 days to occupancy. Ground up construction does not fit. The campaign
+   must ask for buildings, not land, and site control is needed by 1 December 2026. This
+   changes the ask, so read it before anything else.
+2. **`operating_plan.md`** Can this campaign deliver? The honest answer and the six things
+   that need fixing.
+3. **`run_sheet.md`** What happens on Monday. Week by week, owner by owner, with counts.
+4. **`strategy.md`** Why the targets are in this order and what to say to each.
 
 Then `playbook.md` before your first meeting, not after.
 
@@ -23,12 +25,12 @@ Then `playbook.md` before your first meeting, not after.
 
 Nothing starts until Antonio clears these. Four take minutes.
 
-1. **Answer the schedule questions.** Does 2027 mean occupancy, groundbreaking, or financial
-   close? What is Spectrum's actual site to occupancy duration, from your own 27 projects?
-   Does the $1 million include land?
-2. **Approve or reject phone verification of contacts.** Approve, and the campaign starts
-   Monday. Reject, and it waits for network access with nothing to do. The proposed rule
-   amendment is in `operating_plan.md`.
+1. ~~Answer the schedule questions.~~ **Done 2026-09-02: occupancy by 31 December 2027.**
+   The consequence is severe and is in `schedule.md`. Two numbers are still outstanding:
+   Spectrum's real site to occupancy duration, and whether the $1 million includes
+   acquisition.
+2. ~~Approve phone verification.~~ **Approved 2026-09-02.** The campaign is unblocked.
+   `templates/verification_call.md` is the script and Week 1 can start.
 3. **Confirm the staffing table.** Right now nobody is assigned to do the work.
 4. **Rule on the Westwood lease conflict.** `facilities.md` has the exact cells.
 5. **Close the five playbook gaps**, or hand them to Raquel Martinez. Parking and staffing,
@@ -44,6 +46,7 @@ Items 1 and 2 are blocking. The rest run in parallel.
 
 | File | What it is |
 |---|---|
+| `schedule.md` | **Read this first.** 485 days to occupancy. Why raw land cannot work, and the pivot from land to buildings. |
 | `operating_plan.md` | The critical read. Schedule risk, funnel math, staffing, gates, risk register. |
 | `run_sheet.md` | The 90 day calendar. Week 0 decisions, the Week 1 verification sprint, weeks 2 to 12. |
 | `strategy.md` | Target order by reply probability, with justification. The five bands. |
@@ -66,6 +69,7 @@ Items 1 and 2 are blocking. The rest run in parallel.
 | `templates/verification_call.md` | Week 1, day 1. The call that unblocks everything. |
 | `templates/records_request.md` | Week 1, day 3. Highest reply rate email in the campaign. |
 | `templates/cold_email.md` | Weeks 2 to 7. Four variants: township, county, housing authority, Adult Training Center. |
+| `templates/records_request.md` is the first email sent. See `run_sheet.md` Week 1. | |
 | `templates/phone_script.md` | Second touch, five business days after an email. |
 | `templates/Followup_email.md` | Third touch, seven days after the call. |
 | `templates/meeting_agenda.md` | Sent the day before every meeting. Never improvise a meeting. |
@@ -77,8 +81,8 @@ Items 1 and 2 are blocking. The rest run in parallel.
 
 ## THE CAMPAIGN IN SIX LINES
 
-- **Ask for information first, money second, land third.** That is the order government says
-  yes.
+- **Ask for information first, money second, buildings third.** That is the order government
+  says yes.
 - **Lead with ownership, not need.** Spectrum owns 23 of 27 buildings across 18 towns, some
   for 40 years. Not a supplicant.
 - **Sell capacity, not sympathy.** Everyone has a sad story. Almost nobody can run 24 hour
@@ -87,15 +91,15 @@ Items 1 and 2 are blocking. The rest run in parallel.
   beats fourteen emails.
 - **Churches are a live channel, not a fallback.** Spectrum has run Adult Training Centers in
   church buildings since 1989 and 2006. It already works, twice.
-- **The schedule is the real risk.** It is August 2026, the project targets 2027, and there is
-  no site.
+- **The schedule is the real risk.** 485 days to occupancy, no site, and only a renovation
+  path fits. Ask for buildings, not land.
 
 ---
 
 ## THE RULES THAT DO NOT BEND
 
-1. No invented name, title, email, or phone. All 51 contacts read `TO VERIFY` until a person
-   or an official page confirms them.
+1. No invented name, title, email, or phone. All 51 contacts read `TO VERIFY` until an
+   official page or a logged phone call confirms them. Phone verification approved 2026-09-02.
 2. No invented program name, deadline, dollar figure, or eligibility rule. Cite the source.
 3. No invented fact about Spectrum. Missing facts are marked `[ASK ANTONIO]` in place.
 4. Nothing sends without Antonio's explicit approval of the final text.
@@ -108,19 +112,23 @@ Items 1 and 2 are blocking. The rest run in parallel.
 
 ---
 
-## STATE OF PLAY, 2026-08-31
+## STATE OF PLAY, 2026-09-02
 
 **Ready.** Strategy, run sheet, playbook, nine templates, 51 targets in send order, a
 populated tracker, and a graded source log. Outlook is connected as Antonio Salters,
 asalters@spectrumforliving.org, so drafts can be created as soon as there is a verified
 recipient.
 
-**Blocked.** No government website is reachable from the environment these files were built
-in, so every contact name and email still reads `TO VERIFY`. Phone verification is the way
-around it and needs Antonio's approval.
+**Unblocked 2026-09-02.** No government website is reachable from this environment, but phone
+verification is now approved. All 51 contacts still read `TO VERIFY`; turning that into 20 real
+people is the Week 1 task, using `templates/verification_call.md`.
 
-**Unresolved.** The Westwood Carver ATC lease conflict, the 2027 schedule, and the five
-playbook gaps.
+**The deadline.** Occupancy is due 31 December 2027, which is 485 days. Ground up construction
+does not fit. Site control on an existing building is needed by roughly 1 December 2026, which
+is the same week the 90 day campaign ends. See `schedule.md`.
+
+**Unresolved.** The Westwood Carver ATC lease conflict, Spectrum's real build duration, whether
+the $1 million covers acquisition, the staffing table, and the five playbook gaps.
 
 ---
 

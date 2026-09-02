@@ -13,13 +13,17 @@ The campaign cannot start without these. Four of the five take minutes.
 
 | # | Decision | Why it blocks |
 |---|---|---|
-| 1 | Does 2027 mean occupancy, groundbreaking, or financial close? And what is Spectrum's historical site to occupancy duration? | Sets the real deadline. Everything else is scheduled backwards from it. |
-| 2 | Approve or reject phone verification of contacts | Approve and Week 1 runs. Reject and the campaign waits for network access with nothing to do. |
+| 1 | ~~What does 2027 mean?~~ **Answered 2026-09-02: occupancy by 31 December 2027.** Still needed: Spectrum's real site to occupancy duration, and whether the $1M covers acquisition. | Site control is now needed by about 1 December 2026. See `schedule.md`. |
+| 2 | ~~Approve phone verification.~~ **Approved 2026-09-02.** | Week 1 can start. |
 | 3 | Confirm the staffing table, especially Elizabeth's role | Nobody is currently assigned to do the work. |
 | 4 | Rule on the Westwood Carver ATC lease conflict | Unfreezes two contacts and one of three Adult Training Center opportunities. |
 | 5 | Answer the five playbook gaps, or assign them to Raquel Martinez | Parking, placement priority, tax status, closure history, budget characterisation. Needed before any meeting, not before any email. |
 
-Decisions 1 and 2 are blocking. Items 3 to 5 can run alongside Week 1.
+Decisions 1 and 2 are cleared. **Week 1 starts now.** Items 3 to 5 run alongside it.
+
+> **The clock.** Week 12 lands on roughly 25 November 2026. Site control is needed by about
+> 1 December 2026. The campaign timeline and the construction deadline are the same deadline,
+> with no slack. Every week that slips is a week occupancy slips. See `schedule.md`.
 
 ---
 

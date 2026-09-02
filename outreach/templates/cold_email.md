@@ -31,7 +31,11 @@ municipalities and revealing today's cost anchors the price. Variant D was rewri
 remove every dollar figure. Do not put one back. The internal figures live in
 `/outreach/facilities.md` under an internal only heading.
 
-**5. Westwood is on hold.** There is an unresolved conflict about whether the Carver ATC
+**5. Ask for buildings, not land. Changed 2026-09-02.** Occupancy is due 31 December 2027,
+which rules out new construction. Only a renovation of an existing building fits. Variant A
+now asks about vacant buildings rather than surplus land. See `schedule.md`.
+
+**6. Westwood is on hold.** There is an unresolved conflict about whether the Carver ATC
 lease exists. See `/outreach/facilities.md`. Variant D may go to Teaneck and North Haledon.
 It may not go to Westwood until Antonio settles it.
 
@@ -39,7 +43,7 @@ It may not go to Westwood until Antonio settles it.
 
 ## VARIANT A: TOWNSHIP OR BOROUGH
 
-**Subject:** 20 minutes about surplus land in [TOWN]
+**Subject:** 20 minutes about a vacant building in [TOWN]
 
 Dear [TITLE] [LAST NAME],
 
@@ -56,7 +60,8 @@ with developmental and physical disabilities since 1986, about 600 people a year
 Every person we house is low or moderate income. We build and staff the housing most
 developers will not touch.
 
-Would you give me 20 minutes to talk about surplus [TOWN] property?
+Does [TOWN] own a building that is vacant or underused? I would like 20 minutes to talk
+about it.
 
 Thank you,
 
@@ -82,7 +87,7 @@ money already, including $187,475 in New Jersey Department of Labor grants.
 
 Every person we house is low or moderate income and Medicaid funded.
 
-We are planning a $1 million group home for medically fragile adults, targeted for 2027.
+We are planning a $1 million group home for medically fragile adults, to open in 2027.
 
 Could we have 20 minutes?
 
@@ -181,7 +186,8 @@ phone, and the phone and email for Salvador Moran. His address has not been gues
 
 ## FILL BEFORE SENDING
 
-- `[TITLE] [LAST NAME]` from a verified official page only. Never guess.
+- `[TITLE] [LAST NAME]` from a verified official page, or phone verified per
+  `templates/verification_call.md`, approved 2026-09-02. Never guess.
 - `[TOWN]` and `[YEAR]` from `/outreach/facilities.md`.
 - `[COUNTY]` and the two `[N]` values in Variant B: Bergen 19 facilities in 14
   municipalities, Passaic 4 in 3, Middlesex 4 in 1.
