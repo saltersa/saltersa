@@ -1,7 +1,7 @@
 # Spectrum for Living, Government Outreach Campaign
 
 Land, housing partnerships, and funding from townships and counties in Bergen, Passaic, and
-Middlesex. Built 2026-08-31, updated 2026-09-02.
+Middlesex. Built 2026-08-31, updated 2026-09-03.
 
 ---
 
@@ -9,9 +9,9 @@ Middlesex. Built 2026-08-31, updated 2026-09-02.
 
 **If you read three things, read these, in this order.**
 
-1. **`schedule.md`** 485 days to occupancy. Ground up construction does not fit. The campaign
-   must ask for buildings, not land, and site control is needed by 1 December 2026. This
-   changes the ask, so read it before anything else.
+1. **`schedule.md`** 485 days to occupancy. The state zoning finding, why ground up
+   construction does not fit, and why property you already own is the fastest path. Site
+   control needed by roughly 1 January 2027. Read it before anything else.
 2. **`operating_plan.md`** Can this campaign deliver? The honest answer and the six things
    that need fixing.
 3. **`run_sheet.md`** What happens on Monday. Week by week, owner by owner, with counts.
@@ -108,8 +108,8 @@ Nothing starts until Antonio clears these. Four take minutes.
 2. No invented program name, deadline, dollar figure, or eligibility rule. Cite the source.
 3. No invented fact about Spectrum. Missing facts are marked `[ASK ANTONIO]` in place.
 4. Nothing sends without Antonio's explicit approval of the final text.
-5. Conflicting sources stop for a ruling. They are not resolved by guessing. Westwood is
-   frozen on exactly this basis.
+5. Conflicting sources stop for a ruling. They are not resolved by guessing. Westwood was
+   handled this way and ruled on 2026-09-02.
 6. No rent figure in any outreach. Ruled 2026-08-31.
 7. Never claim a Spectrum home earns a town affordable housing credit. It is the most
    tempting sentence in this campaign and it is not verified.
@@ -125,12 +125,12 @@ asalters@spectrumforliving.org, so drafts can be created as soon as there is a v
 recipient.
 
 **Unblocked 2026-09-02.** No government website is reachable from this environment, but phone
-verification is now approved. All 51 contacts still read `TO VERIFY`; turning that into 20 real
+verification is now approved. All 51 contacts still read `TO VERIFY`; turning that into 21 real
 people is the Week 1 task, using `templates/verification_call.md`.
 
 **The deadline.** Occupancy is due 31 December 2027, which is 485 days. Ground up construction
-does not fit. Site control on an existing building is needed by roughly 1 December 2026, which
-is the same week the 90 day campaign ends. See `schedule.md`.
+does not fit. Site control on an existing building is needed by roughly 1 January 2027. If the
+zoning finding holds, that leaves about four months. See `schedule.md`.
 
 **Unresolved.** The license class, Spectrum's real build duration, whether there is room at
 Spectrum Drive in Edison, Antonio's direct phone, and who does the verification calls.

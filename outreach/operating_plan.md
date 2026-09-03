@@ -12,9 +12,12 @@ Short answer: the outreach is sound. The plan around it has six holes. Two are s
 
 **ANSWERED 2026-09-02. Antonio confirms 2027 means occupancy by 31 December 2027.**
 
-That is 485 days from today, and the arithmetic does not work for a new build. Only an
-existing building that needs renovation fits, and it must be under site control by roughly
-1 December 2026, which is thirteen weeks away.
+That is 485 days, and the arithmetic does not work for a new build. Only an existing building
+that needs renovation fits, and it must be under site control by roughly 1 January 2027.
+
+**Research on 2026-09-03 then found N.J.S.A. 40:55D-66.1**, under which a six bed community
+residence may be a permitted use in every residential district, which would cut the approvals
+phase to a building permit. Verify with counsel and confirm the license class first.
 
 **The full analysis and the resulting pivot from land to buildings is in `schedule.md`. Read
 it before the rest of this page.**
@@ -225,7 +228,7 @@ That last one matters most. Campaigns fail by spreading thin across 51 contacts 
 | Only one site materialises and it falls through | No building | Three sites in discussion, plus the church and market fallbacks |
 | Senior time gets consumed by admin | Campaign stalls by week 4 | Elizabeth owns research, drafting, logging |
 | A fabricated contact or claim reaches a town | Reputational damage that closes doors permanently | Existing rules hold. Nothing sends unverified. |
-| Westwood lease conflict stays open | One of three ATC opportunities frozen | Antonio rules on the conflict |
+| The zoning finding does not survive counsel, or the home is licensed as an ICF | The approvals phase returns and 2027 is at risk again | Confirm the license class before committing to the date |
 
 ---
 

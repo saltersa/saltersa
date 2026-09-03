@@ -214,7 +214,7 @@ handed over by someone inside the building outperforms any cold list. Log every 
 | Claiming a Spectrum home earns a town affordable housing credit | Not stated anywhere. Needs a legal source first. It is the strongest line available and it is still not worth fabricating. |
 | Asserting a town's obligation or trust fund balance | Bracketed in Variant A. Band 1 exists to replace the bracket with fact. |
 | Naming a rent figure | Prohibited in outreach as of 2026-08-31. |
-| Contacting Westwood before the lease conflict is settled | Both Westwood rows frozen in `targets.csv`. |
+| Asserting the zoning position without counsel | N.J.S.A. 40:55D-66.1 is Level B and depends on the license class. Verify before saying it once. |
 | Burning a mayor on a cold land ask | Mayors are Band 5, after evidence exists. |
 
 ---

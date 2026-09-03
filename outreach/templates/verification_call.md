@@ -81,7 +81,7 @@ Level A2. Bergenfield, verified by phone.
   Obtained: [Name], Municipal Clerk, [email]
   Spelling confirmed: yes
   Also offered: [any extra name and role]
-  Caller: Elizabeth Boyajian
+  Caller: [name of whoever made the call]
 ```
 
 Then update `targets.csv`: replace `TO VERIFY` in `contact_name` and `email`, and replace
