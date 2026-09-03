@@ -1,6 +1,6 @@
 # Verification Call Script
 
-**The first action of the campaign.** Seventeen calls, one morning, and 51 rows of
+**The first action of the campaign.** Eighteen calls, one morning, and 51 rows of
 `TO VERIFY` start becoming real people.
 
 > **APPROVED BY ANTONIO, 2026-09-02.** Campaign rule 1 now accepts a contact verified by
@@ -106,9 +106,10 @@ Then update `targets.csv`: replace `TO VERIFY` in `contact_name` and `email`, an
 Work down `targets.csv`. It is already sorted by send order.
 
 Edison, Closter, Bergenfield, River Vale, Glen Rock, Paramus, Northvale, North Haledon,
-Norwood, Ringwood, Hillsdale, Wayne, Haworth, Maywood, Elmwood Park, Rockleigh, Teaneck.
+Norwood, Ringwood, Hillsdale, Wayne, Haworth, Maywood, Elmwood Park, Rockleigh, Teaneck,
+Westwood.
 
-**Westwood is frozen.** Do not call it until Antonio rules on the lease conflict.
+**All 18 towns are live.** Westwood was unfrozen on 2026-09-02.
 
 Then Thursday, the three county community development offices. On those calls, get the
 director's name and email **and ask this**, which matters more than the name:
@@ -119,7 +120,7 @@ director's name and email **and ask this**, which matters more than the name:
 
 Sources checked:
 
-- `targets.csv` in this folder for the call order and the 17 unfrozen towns.
+- `targets.csv` in this folder for the call order and all 18 towns.
 - `2026_Facility_List.xlsx` 2026-08-31 for the per town operating year used in the script.
 - No phone number is listed in this file. Numbers come from `sources.md`, where the two
   captured so far are recorded at Level B and must be confirmed on connection.

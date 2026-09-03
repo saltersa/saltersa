@@ -36,7 +36,7 @@ Both values come from the table below. Nothing else about a town may be asserted
 | **Maywood** | 1998 | 1 | Maywood | Spectrum |
 | **Elmwood Park** | 1999 | 1 | Elmwood Park | Spectrum |
 | **Rockleigh** | 1999 | 1 | Rockleigh Apts. | Spectrum |
-| **Westwood** | 1999 | 2 | Carver ATC, Westwood GH | Debbie Friend, Spectrum |
+| **Westwood** | 1999 | 2 | Carver ATC, Westwood GH | Spectrum, per Antonio's ruling 2026-09-02 |
 | **Teaneck** | 2006 | 1 | Teaneck ATC | Grace Lutheran Church Lynn/Peggy (Pastor) |
 
 ### Passaic County: 3 municipalities, 4 facilities
@@ -55,7 +55,7 @@ Both values come from the table below. Nothing else about a town may be asserted
 
 ---
 
-## The three Adult Training Centers Spectrum does not own
+## The Adult Training Centers Spectrum does not own
 
 > ## INTERNAL ONLY. DO NOT DISCLOSE ANY FIGURE IN THIS SECTION.
 >
@@ -70,53 +70,66 @@ Both values come from the table below. Nothing else about a town may be asserted
 
 | Site | Town | Landlord | Term | Expires | Monthly |
 |---|---|---|---|---|---|
-| Carver ATC | Westwood | Debbie Friend | 5 Years | 2023-12-31 | $13,309 |
 | N. Haledon ATC | North Haledon | High Mountain Church Darren Ojeda (Pastor) | 5 years | 2030-01-31 | $10,500 |
 | Teaneck ATC | Teaneck | Grace Lutheran Church Lynn/Peggy (Pastor) | 5 years | 2030-03-31 | $13,850 |
 
-Two of the three are rented from churches. All three are Adult Training Centers, which
-Antonio confirmed on 2026-08-31 is what ATC stands for.
+Both are rented from churches. **Carver ATC in Westwood was removed from this table on
+2026-09-02**, when Antonio ruled that outreach treats the Westwood properties as Spectrum's own.
+See the Westwood section below.
 
 ---
 
-## UNRESOLVED CONFLICT: does the Carver ATC lease exist?
+## RESOLVED: WESTWOOD
 
-**This is blocking. Nothing goes to Westwood until it is settled.**
+**Ruled by Antonio, 2026-09-02.** Outreach treats both Westwood properties, Carver ATC at
+91 Carver Ave and Westwood GH at 14 Lester Ave, **as Spectrum's own.**
 
-On 2026-08-31 Antonio said: "There is no lease listed in the facility document."
+Westwood is unfrozen and is a standard town in the campaign. Both contacts are live. It gets
+cold email Variant A like any other town, **not** Variant D, which exists for buildings Spectrum
+does not own.
 
-The file says otherwise. These are the exact cells, read straight from
-`2026_Facility_List.xlsx`, sheet `Facilities`. Row 2 holds the headers, so row 4 is the
-Carver ATC record.
+For the record, and without reopening it: the facility file lists `Debbie Friend` as
+Landlord/Owner for Carver ATC at F4, with lease fields at G4, H4 and I4. Antonio has directed
+how to treat it for outreach purposes. That direction governs. The file has not been altered.
 
-| Cell | Header in row 2 | Value in row 4 |
+Variant D now applies to Teaneck and North Haledon only.
+
+---
+
+## THE FOUR CAMPUSES
+
+Spectrum owns multiple buildings on sequential or adjacent addresses in four towns. These are
+the fastest possible sites for the 2027 project, because there is no acquisition, no seller,
+and no closing.
+
+| Campus | Buildings | Addresses |
 |---|---|---|
-| A4 | PROGRAM | `Carver ATC` |
-| F4 | Landlord/Owner | `Debbie Friend` |
-| G4 | Lease Term | `5 Years` |
-| H4 | Lease Expiration | `2023-12-31` |
-| I4 | Monthly Lease payment | `13309` |
+| **Edison** | Edison 100, Edison ATC, Edison 300 | **100, 200 and 300 Spectrum Drive** |
+| River Vale | River Vale Apts., RVCO main office | 81 and 210 Rivervale Road |
+| Ringwood | Ringwood Apts., Ringwood ATC | 20 and 30 Morris Road |
+| Closter | Closter ICF, Closter Apts. | 50 Blanch Ave and 19 Van Sciver St |
 
-Two other rows carry the same three lease fields: N. Haledon ATC at row 20, expiring
-2030-01-31, and Teaneck ATC at row 27, expiring 2030-03-31. There are no hidden rows or
-columns in this sheet and no cell comments. I checked.
+**Edison is the one to check first.** Spectrum owns 100, 200 and 300 Spectrum Drive, in the
+town with its largest footprint, in use for this purpose since 1997.
 
-So the document does list leases. Which of these is true?
+Seven owned sites are non residential or mixed use and may hold slack space:
 
-1. **The data is stale.** The Carver lease ended 2023-12-31 and the row was never cleaned
-   up. If so, what is the arrangement in Westwood now?
-2. **You meant something narrower**, for example that the actual signed lease agreement is
-   not attached to this spreadsheet, or that Westwood GH, the group home, has no lease
-   because Spectrum owns it. Both would be correct statements.
-3. **You are working from a different version of the file** than the one uploaded here.
+| Site | Sq ft | Use |
+|---|---|---|
+| River Vale Apts. | 12,900 | 16 apartments, 29 rooms, office |
+| Edison ATC | 10,000 | Adult Training Center |
+| Ringwood ATC | 9,665 | Adult Training Center |
+| RVCO | 8,400 | Main office |
+| Ringwood Apts. | 8,290 | 9 apartments, 17 rooms, office |
+| Rockleigh Apts. | 7,730 | 8 apartments, 16 rooms, office |
+| Closter Apts. | 7,300 | 8 apartments, 16 rooms, office |
 
-Campaign rule 6 says that when two sources conflict I stop and ask rather than pick one. I
-am not deleting the lease data and I am not asserting it. Both stay flagged until you say
-which reading is right.
+Occupancy and site coverage are not in the facility file. See `schedule.md`.
 
-**What is not in doubt:** the Landlord and Owner column names a non Spectrum owner for all
-three Adult Training Centers. Outreach can safely say Spectrum does not own those buildings
-without relying on any lease field.
+**Also from this file:** every Spectrum group home is six bedrooms, except Paramus at seven and
+the Bergenfield respite at three. Under N.J.S.A. 40:55D-66.1 the six person threshold is what
+keeps a community residence permitted by right. Spectrum's standard model is already the right
+size. Design the new home at six.
 
 ---
 
@@ -128,13 +141,12 @@ does not own the other three.
 
 Still open:
 
-1. **The Carver ATC lease conflict above.** Blocking for Westwood.
-2. [ASK ANTONIO: the program named "Guttenberg" has a Bergenfield address, 143 Mackay
+1. [ASK ANTONIO: the program named "Guttenberg" has a Bergenfield address, 143 Mackay
    Dr. Is that a naming legacy, or an error in the file?]
-3. [ASK ANTONIO: county assignments below are derived from municipality names, not from
+2. [ASK ANTONIO: county assignments below are derived from municipality names, not from
    a verified source, because no website was reachable. Please spot check Rockleigh,
    Northvale, and North Haledon.]
-4. [ASK ANTONIO: Fire Suppression and Generator columns are empty for every row. Is
+3. [ASK ANTONIO: Fire Suppression and Generator columns are empty for every row. Is
    that unrecorded, or genuinely absent? It matters for a 24 hour nursing facility.]
 
 ---
@@ -143,5 +155,5 @@ Sources checked:
 
 - `2026_Facility_List.xlsx`, supplied by Antonio, 2026-08-31. Every figure above is
   computed directly from that file, not typed by hand.
-- County assignments are derived, not verified. See open question 3.
+- County assignments are derived, not verified. See open question 2.
 - No external URL was reachable from this environment. See `/outreach/sources.md`.

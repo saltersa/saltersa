@@ -35,9 +35,10 @@ remove every dollar figure. Do not put one back. The internal figures live in
 which rules out new construction. Only a renovation of an existing building fits. Variant A
 now asks about vacant buildings rather than surplus land. See `schedule.md`.
 
-**6. Westwood is on hold.** There is an unresolved conflict about whether the Carver ATC
-lease exists. See `/outreach/facilities.md`. Variant D may go to Teaneck and North Haledon.
-It may not go to Westwood until Antonio settles it.
+**6. Westwood is unfrozen. Ruled 2026-09-02.** Antonio directed that outreach treat both
+Westwood properties as Spectrum's own. Westwood is now a standard Band 1 and Band 3 town.
+**Variant D does not apply to Westwood**, because Variant D is for buildings Spectrum does not
+own. Use Variant A there.
 
 ---
 
@@ -124,8 +125,8 @@ Thank you,
 
 ## VARIANT D: ADULT TRAINING CENTER SPECTRUM DOES NOT OWN
 
-**Approved for Teaneck and North Haledon. Westwood is on hold**, pending the lease conflict
-in `/outreach/facilities.md`. Read that first.
+**Teaneck and North Haledon only.** Westwood is excluded as of 2026-09-02, because Antonio
+ruled its properties are Spectrum's own. Westwood gets Variant A.
 
 No dollar figure appears here and none may be added. The ask is a rental conversation.
 
@@ -169,18 +170,14 @@ That split covers all 51 rows in `targets.csv` with no judgment calls.
 > Salvador Moran
 > Chief Executive Officer
 > Spectrum for Living
-> [PHONE] | [EMAIL]
+> smoran@spectrumforliving.org | 646.879.3152
 
 > Antonio Salters
-> [ANTONIO: TITLE]
+> Chief Operating Officer
 > Spectrum for Living
-> asalters@spectrumforliving.org | [PHONE]
+> asalters@spectrumforliving.org | [ANTONIO PHONE]
 
-Name and email confirmed 2026-08-31 from the connected Outlook account. The Microsoft 365
-profile returns no job title, so that line is still open.
-
-[ASK ANTONIO: confirm the signing split above, your job title as it should appear, your
-phone, and the phone and email for Salvador Moran. His address has not been guessed.]
+Confirmed 2026-09-02 by Antonio. Only his direct phone is still outstanding.
 
 ---
 

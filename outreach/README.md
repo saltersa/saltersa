@@ -31,12 +31,15 @@ Nothing starts until Antonio clears these. Four take minutes.
    acquisition.
 2. ~~Approve phone verification.~~ **Approved 2026-09-02.** The campaign is unblocked.
    `templates/verification_call.md` is the script and Week 1 can start.
-3. **Confirm the staffing table.** Right now nobody is assigned to do the work.
-4. **Rule on the Westwood lease conflict.** `facilities.md` has the exact cells.
-5. **Close the five playbook gaps**, or hand them to Raquel Martinez. Parking and staffing,
-   placement priority, property tax status, closure history, budget characterisation.
-
-Items 1 and 2 are blocking. The rest run in parallel.
+3. ~~Rule on Westwood.~~ **Ruled 2026-09-02: treat both properties as Spectrum's own.**
+   Unfrozen, standard town, Variant A.
+4. **Call your own facilities staff about Spectrum Drive in Edison.** You own 100, 200 and 300.
+   Is there room? On a $1 million budget that includes acquisition, this is the highest value
+   question in the campaign. See `schedule.md`.
+5. **Confirm the license class**: community residence under N.J.A.C. 10:44A, or intermediate
+   care facility? It decides whether the state zoning protection applies. See `schedule.md`.
+6. **Who does the verification calls and logging?** The last unassigned piece. See
+   `antonio_focus.md`.
 
 ---
 
@@ -46,7 +49,8 @@ Items 1 and 2 are blocking. The rest run in parallel.
 
 | File | What it is |
 |---|---|
-| `schedule.md` | **Read this first.** 485 days to occupancy. Why raw land cannot work, and the pivot from land to buildings. |
+| `schedule.md` | **Read this first.** 485 days. The state zoning finding, the paths, and why property you already own is fastest. |
+| `antonio_focus.md` | The twelve contacts worth your time, and what comes off your desk. |
 | `operating_plan.md` | The critical read. Schedule risk, funnel math, staffing, gates, risk register. |
 | `run_sheet.md` | The 90 day calendar. Week 0 decisions, the Week 1 verification sprint, weeks 2 to 12. |
 | `strategy.md` | Target order by reply probability, with justification. The five bands. |
@@ -69,7 +73,6 @@ Items 1 and 2 are blocking. The rest run in parallel.
 | `templates/verification_call.md` | Week 1, day 1. The call that unblocks everything. |
 | `templates/records_request.md` | Week 1, day 3. Highest reply rate email in the campaign. |
 | `templates/cold_email.md` | Weeks 2 to 7. Four variants: township, county, housing authority, Adult Training Center. |
-| `templates/records_request.md` is the first email sent. See `run_sheet.md` Week 1. | |
 | `templates/phone_script.md` | Second touch, five business days after an email. |
 | `templates/Followup_email.md` | Third touch, seven days after the call. |
 | `templates/meeting_agenda.md` | Sent the day before every meeting. Never improvise a meeting. |
@@ -91,8 +94,10 @@ Items 1 and 2 are blocking. The rest run in parallel.
   beats fourteen emails.
 - **Churches are a live channel, not a fallback.** Spectrum has run Adult Training Centers in
   church buildings since 1989 and 2006. It already works, twice.
-- **The schedule is the real risk.** 485 days to occupancy, no site, and only a renovation
-  path fits. Ask for buildings, not land.
+- **You may not need zoning approval.** Under N.J.S.A. 40:55D-66.1 a six bed community
+  residence is a permitted use in every residential district. Verify with counsel, then
+  negotiate from a settled position. Design at six.
+- **The schedule is the real risk.** 485 days, no site, and only a renovation path fits.
 
 ---
 
@@ -127,8 +132,8 @@ people is the Week 1 task, using `templates/verification_call.md`.
 does not fit. Site control on an existing building is needed by roughly 1 December 2026, which
 is the same week the 90 day campaign ends. See `schedule.md`.
 
-**Unresolved.** The Westwood Carver ATC lease conflict, Spectrum's real build duration, whether
-the $1 million covers acquisition, the staffing table, and the five playbook gaps.
+**Unresolved.** The license class, Spectrum's real build duration, whether there is room at
+Spectrum Drive in Edison, Antonio's direct phone, and who does the verification calls.
 
 ---
 

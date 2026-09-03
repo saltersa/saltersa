@@ -16,7 +16,7 @@ The campaign cannot start without these. Four of the five take minutes.
 | 1 | ~~What does 2027 mean?~~ **Answered 2026-09-02: occupancy by 31 December 2027.** Still needed: Spectrum's real site to occupancy duration, and whether the $1M covers acquisition. | Site control is now needed by about 1 December 2026. See `schedule.md`. |
 | 2 | ~~Approve phone verification.~~ **Approved 2026-09-02.** | Week 1 can start. |
 | 3 | Confirm the staffing table, especially Elizabeth's role | Nobody is currently assigned to do the work. |
-| 4 | Rule on the Westwood Carver ATC lease conflict | Unfreezes two contacts and one of three Adult Training Center opportunities. |
+| 4 | ~~Rule on Westwood.~~ **Ruled 2026-09-02: treat as Spectrum's own.** Unfrozen. | 18 towns are now live, not 17. |
 | 5 | Answer the five playbook gaps, or assign them to Raquel Martinez | Parking, placement priority, tax status, closure history, budget characterisation. Needed before any meeting, not before any email. |
 
 Decisions 1 and 2 are cleared. **Week 1 starts now.** Items 3 to 5 run alongside it.
@@ -34,18 +34,22 @@ either becomes real or stays a document.
 
 | Day | Who | Action | Volume |
 |---|---|---|---|
-| Mon | Elizabeth | Call all 17 unfrozen towns. Ask the main number for the clerk's name, exact spelling, and email. Log each call in `sources.md`. | 17 calls |
-| Tue AM | Elizabeth | Merge `templates/records_request.md` against the verified rows. One draft per town into Antonio's Outlook drafts. | 17 drafts |
-| Tue PM | Antonio | Read all 17. Approve, or send back. | 30 min |
-| Wed | Antonio | Send. Update `tracker.csv` the same day: date sent, channel, next action, next action date. | 17 sends |
-| Thu | Elizabeth | Call the three county community development offices. Get the director's name and email, **and the CDBG and HOME application cycle dates.** | 3 calls |
+| Mon | Delegate | Call all 18 towns. Ask the main number for the clerk's name, exact spelling, and email. Log each call in `sources.md`. | 17 calls |
+| Tue AM | Delegate | Merge `templates/records_request.md` against the verified rows. One draft per town into Antonio's Outlook drafts. | 18 drafts |
+| Tue PM | Antonio | Read all 18 in one sitting. Approve, or send back. | 30 min |
+| Wed | Antonio | Send all 18. Update `tracker.csv` the same day: date sent, channel, next action, next action date. | 17 sends |
+| Thu | Delegate | Call the three county community development offices. Get the director's name and email, **and the CDBG and HOME application cycle dates.** | 3 calls |
 | Fri | Antonio, Elizabeth | Warm introduction audit. Board members by town of residence. Top five funders. Who to ask for what. | 2 hours |
 
 **Thursday's cycle dates matter more than Thursday's contact names.** If a cycle closes
 inside the next 90 days, that county jumps the entire queue on Friday.
 
-**End of week 1 target:** 17 records requests sent, 20 contacts verified, 3 funding cycle
-dates known, warm introduction list drafted.
+**End of week 1 target:** 18 records requests sent, 21 contacts verified, 3 funding cycle dates
+known, warm introduction list drafted, **and an answer on Spectrum Drive in Edison.**
+
+> **Antonio's own Week 1 is different.** Call facilities about Spectrum Drive, then the two
+> church landlords, then Bergen County Community Development. See `antonio_focus.md`. Everything
+> in the table above should reach you only as a batch of drafts to approve.
 
 ---
 
@@ -81,7 +85,7 @@ argues for continuing.
 
 | Gate | When | Test | If it fails |
 |---|---|---|---|
-| 1 | End of week 2 | 8 or more of 17 clerks replied | Contact data is wrong. Stop sending, re verify, do not burn the list. |
+| 1 | End of week 2 | 8 or more of 18 clerks replied | Contact data is wrong. Stop sending, re verify, do not burn the list. |
 | 2 | End of week 6 | At least one county meeting on the calendar | County angle is not landing. Escalate to a CEO letter or a board introduction. |
 | 3 | End of week 8 | 3 or more towns discussing a specific parcel | Open Tier 3 and push the church channel hard. |
 | 4 | End of week 12 | 1 site in written negotiation | Trigger the market purchase fallback and reset the 2027 date. |

@@ -55,7 +55,7 @@ fit on property you already own.
 **Salvador Moran**
 Chief Executive Officer
 Spectrum for Living
-[PHONE] | [EMAIL]
+smoran@spectrumforliving.org | 646.879.3152
 
 ---
 
@@ -73,5 +73,4 @@ Sources checked:
   $70,000. See `/outreach/grant_history.md`.
 - No external URL was reachable from this environment. No claim on this page depends on one.
 
-Open item: [ASK ANTONIO: phone and email for Salvador Moran. Government outreach is signed by
-Antonio or Salvador Moran, settled 2026-08-31. This leave behind carries the CEO.]
+Signer details confirmed 2026-09-02. This leave behind carries the CEO.

@@ -1,130 +1,190 @@
 # The Schedule
 
-Antonio confirmed on 2026-09-02: **2027 means occupancy by 31 December 2027.**
+Antonio confirmed 2026-09-02: **2027 means occupancy by 31 December 2027**, and **the $1 million
+includes acquisition.**
 
-That single answer changes what this campaign should be asking for. This page shows the
-arithmetic, and it is the most important page in the folder.
+Then he asked me to research the build duration rather than guess it. I did. What came back
+changes the campaign more than the deadline did.
+
+---
+
+## THE FINDING: YOU MAY NOT NEED ZONING APPROVAL AT ALL
+
+**N.J.S.A. 40:55D-66.1.** Community residences for the developmentally disabled are a
+**permitted use in all residential districts** of a New Jersey municipality, and the
+requirements are **the same as for a single family dwelling**.
+
+The threshold is six. A community residence housing **six or fewer people, excluding resident
+staff, is permitted by right.** Seven to fifteen may be made a conditional use requiring
+planning board approval. Above fifteen is not permitted.
+
+Group homes are also named in the Municipal Land Use Law as an **inherently beneficial use**,
+a category defined as universally of value to the community.
+
+### Why this is the most important sentence in the campaign
+
+**Spectrum is not asking a town for permission. The Legislature already gave it.**
+
+Three consequences, in order of size.
+
+1. **The land use approval phase mostly disappears.** At six residents or fewer in a
+   residential zone, this is a building permit, not a variance, not a use approval, not a
+   public hearing where neighbours object. That is the phase most likely to kill a 2027 date,
+   and it may not exist.
+2. **It changes the conversation with every town.** The ask is no longer "will you allow
+   this." It is "will you sell, lease, or transfer us a building." A town cannot use zoning as
+   a soft no. Do not say this out loud as a threat. Its value is that Spectrum negotiates from
+   a settled position rather than a hopeful one.
+3. **It sets the design.** Six residents or fewer keeps the project permitted by right. Seven
+   pushes it into conditional use, planning board, and months. **Every one of Spectrum's group
+   homes is already six bedrooms**, except Paramus at seven and the Bergenfield respite at
+   three. The standard model is already the right size.
+
+> **VERIFY WITH COUNSEL BEFORE RELYING ON THIS.** Level B. The statute text was returned
+> consistently across two independent searches and reproduced in the published ordinances of
+> at least nine New Jersey municipalities, which is unusually strong corroboration. But I could
+> not open the primary source from this environment, so it is not Level A.
+>
+> **The one question that decides whether it applies:** is the high needs medical home licensed
+> as a **community residence** under N.J.A.C. 10:44A, or as an **intermediate care facility**
+> like Closter? If it is a community residence, the protection applies. If it is an ICF, assume
+> it does not. Search returned a description of "medically supportive community residences" for
+> medically fragile people needing 24 hour nursing, described as an alternative to an ICF rather
+> than an ICF, but that came from a peer provider's website, not the State. **Confirm the
+> license class first. Everything below depends on it.**
 
 ---
 
 ## THE ARITHMETIC
 
-Today is 2 September 2026. Occupancy is due 31 December 2027.
+Today is 2 September 2026. Occupancy is due 31 December 2027. **485 days.**
 
-**That is 485 days. Just under 16 months.**
-
-Everything has to fit inside it: site control, design, municipal approvals, construction or
-renovation, licensure, and move in.
-
----
-
-## THREE PATHS, AND ONLY ONE FITS
-
-> **The month counts below are my planning assumptions, not Spectrum data.** I asked for
-> Spectrum's real site to occupancy duration from its own 27 projects and do not have it yet.
-> Replace these with your actual numbers and the conclusion may shift. **The arithmetic is
-> the point, not my guesses.**
-
-| Path | Design | Approvals | Build | Licensure | Total | Site control needed by | Status |
+| Path | Design | Approvals | Build | Licensure | Total | Site control by | Status |
 |---|---|---|---|---|---|---|---|
-| **A. Existing house, moderate renovation** | 2 | 2 | 6 | 3 | **13 months** | **1 December 2026** | **90 days of slack** |
-| B. Existing non residential building, change of use | 3 | 5 | 9 | 3 | 20 months | 2 May 2026 | Passed 123 days ago |
-| C. New construction on vacant land | 4 | 6 | 12 | 3 | 25 months | 30 November 2025 | Passed 276 days ago |
+| **A1. Existing house, 6 beds, permitted by right** | 2 | **1** | 6 | 3 | **12 months** | **~1 January 2027** | **~4 months slack** |
+| A2. Existing house, 7+ beds, conditional use | 2 | 4 | 6 | 3 | 15 months | ~1 October 2026 | 4 weeks. Effectively gone. |
+| B. Non residential building, change of use | 3 | 5 | 9 | 3 | 20 months | 2 May 2026 | Passed |
+| C. New construction on vacant land | 4 | 6 | 12 | 3 | 25 months | 30 November 2025 | Passed |
+
+> Month counts are **planning assumptions**, not Spectrum data and not from the State. The
+> approvals figure for A1 reflects a building permit rather than a land use approval, on the
+> strength of 40:55D-66.1. Licensure is governed by N.J.A.C. 10:44A and I could not find a
+> published duration. **Replace all four with your own numbers from the 2010 Closter renovation
+> or the Chinery Apartments work.**
+
+**Read the difference between A1 and A2.** One extra bedroom costs roughly three months and
+takes the project from workable to impossible. **Design it at six.**
 
 ---
 
-## WHAT THIS MEANS
+## THE $1 MILLION NOW INCLUDES ACQUISITION
 
-**Raw land cannot deliver occupancy by the end of 2027.** Not because the campaign is slow,
-but because ground up construction plus land use approvals plus licensure does not fit in 16
-months, and would have needed to start last year.
+Confirmed 2026-09-02. This is a hard constraint, not a detail.
 
-**The only viable path is an existing building that needs renovation rather than
-construction.** And it needs to be under site control by roughly **1 December 2026**, which
-is thirteen weeks from now.
+One million dollars has to cover buying a property **and** renovating it to licensed standard
+for adults needing 24 hour nursing. In Bergen County residential real estate, that is tight.
+I am not going to quote a price per house, because I have no verified figure for that market.
 
-**The campaign timeline and the construction deadline are the same deadline.** The run sheet
-ends at week 12 with one site in written negotiation. Week 12 lands on approximately 25
-November 2026. The site control deadline is 1 December 2026.
+**What follows logically, without any price data:**
 
-There is no slack. **Any week the campaign slips is a week occupancy slips.**
+**Getting the building at low or no cost is not a way to save money. It is the plan.** Every
+dollar of acquisition comes straight out of renovation, and renovation is the part that has to
+satisfy a licensing inspector. The municipal ask and the church ask are no longer the
+politically attractive option. They are the only ones with enough headroom.
 
----
-
-## THE PIVOT
-
-**Stop asking towns for land. Start asking towns for buildings.**
-
-This is a change to the ask, not to the strategy. The target order, the bands, and the reply
-probability logic all still hold. What changes is the noun.
-
-| Was | Now |
-|---|---|
-| "Surplus municipal property" | "A vacant or underused municipal building" |
-| "A site for a new home" | "A building we can renovate" |
-| Land parcels on the property list | Structures on the property list |
-
-**Where a building is more likely to exist than land:**
-
-1. **Churches.** Already Spectrum's proven model, two Adult Training Centers in church
-   buildings since 1989 and 2006. Churches hold underused buildings and can decide without a
-   council vote, public notice, or a referendum. **On a 13 week clock this stops being a
-   parallel track and becomes the fastest one.**
-2. **Closed or consolidated municipal buildings.** Old libraries, former police or fire
-   buildings, shuttered schools, buildings a town took by foreclosure.
-3. **The open market.** Spectrum owns 23 of 27 buildings and plainly knows how to acquire
-   property. An existing house bought on the market is the only path with no third party
-   approval gate at the front of it.
-
-**The market purchase is no longer a fallback. On this timeline it is the control case**, and
-every municipal or church option has to beat it on speed, not just on price.
+This also reorders the paths below.
 
 ---
 
-## WHAT I STILL NEED TO FINISH THIS SCHEDULE
+## THE FASTEST PATH IS PROPERTY SPECTRUM ALREADY OWNS
 
-Three numbers, all of which exist inside Spectrum. With them I will replace the assumed
-durations above and give you a real critical path with named dates.
+Antonio said he is open to options. This one has no acquisition cost, no seller, no closing,
+and no third party approval at the front of it.
 
-1. **Actual duration, site control to occupancy**, from your own recent projects. The Chinery
-   Apartments work or the 2010 Closter renovation would both be good comparables.
-2. **Licensure duration.** How long from construction complete to licensed and occupied for a
-   facility with 24 hour nursing? This is the phase most often underestimated and it sits at
-   the very end where there is no room to recover.
-3. **Does the $1 million include acquisition?** Still unanswered, and now more important. If
-   it does not, the acquisition budget is unfunded on a 13 week clock. If it does, then $1
-   million for acquisition plus renovation points strongly at an existing house, which
-   confirms Path A independently.
+**Spectrum owns four multi building campuses.** From the facility list, these buildings sit on
+sequential or adjacent addresses:
+
+| Campus | Buildings | Addresses |
+|---|---|---|
+| **Edison** | Edison 100, Edison ATC, Edison 300 | **100, 200 and 300 Spectrum Drive** |
+| River Vale | River Vale Apts., RVCO main office | 81 and 210 Rivervale Road |
+| Ringwood | Ringwood Apts., Ringwood ATC | 20 and 30 Morris Road |
+| Closter | Closter ICF, Closter Apts. | 50 Blanch Ave and 19 Van Sciver St |
+
+**Edison is the standout.** Spectrum owns 100, 200 and 300 Spectrum Drive. That is a street
+Spectrum appears to occupy end to end, in the town with its largest footprint, already used for
+exactly this purpose.
+
+> **[ASK ANTONIO, HIGHEST VALUE QUESTION IN THIS DOCUMENT]** Is there developable land at
+> Spectrum Drive in Edison, or a building there with convertible space? If yes, that is
+> plausibly the whole answer: no acquisition cost, no seller, land you control, a town you have
+> been in since 1997, and the full $1 million available for construction and fit out.
+>
+> The same question applies to River Vale, Ringwood, and Closter.
+
+Seven owned sites are non residential or mixed use and worth checking for slack space:
+
+| Site | Sq ft | Use |
+|---|---|---|
+| River Vale Apts. | 12,900 | 16 apartments, 29 rooms, office |
+| Edison ATC | 10,000 | Adult Training Center |
+| Ringwood ATC | 9,665 | Adult Training Center |
+| RVCO | 8,400 | Main office |
+| Ringwood Apts. | 8,290 | 9 apartments, 17 rooms, office |
+| Rockleigh Apts. | 7,730 | 8 apartments, 16 rooms, office |
+| Closter Apts. | 7,300 | 8 apartments, 16 rooms, office |
+
+I cannot tell occupancy or site coverage from the facility list. You can, in an afternoon.
 
 ---
 
-## IF THE DATE CANNOT MOVE AND NO BUILDING APPEARS
+## THE ORDER TO WORK THE PATHS
 
-Say so early. The honest options, in the order a COO would consider them:
+Revised on the two answers of 2026-09-02.
 
-1. **Buy on the market now** and pursue municipal or church space for the next project.
-2. **Renovate something Spectrum already owns.** You hold 23 buildings across 18 towns. This
-   is the only path with no acquisition step at all. [ASK ANTONIO: is any owned property
-   convertible, or is every one of them fully occupied?]
-3. **Move the date to 2028** and run the municipal campaign properly, including the land
-   paths that a longer runway makes viable.
+1. **Property Spectrum already owns.** No acquisition cost, no seller, fastest. Check this
+   week. It may end the search.
+2. **Churches.** No acquisition cost if leased. Decide without a council vote. Spectrum has run
+   Adult Training Centers in church buildings since 1989 and 2006, so the model is proven twice.
+3. **A municipal or county building.** Cheap or free, but moves at the speed of a governing
+   body. This is what the 90 day campaign is built to produce.
+4. **The open market.** Fastest to control, but acquisition eats the renovation budget. On a
+   $1 million all in number this is now the **weakest** path, not the safe fallback it was
+   yesterday.
 
-Option 2 is worth checking first because it is free and fast. It may already be sitting in
-the facility list.
+---
+
+## WHAT IS STILL NEEDED TO FINISH THIS SCHEDULE
+
+1. **The license class.** Community residence under 10:44A, or ICF? Decides whether
+   40:55D-66.1 applies, which decides the approvals column, which decides the deadline.
+2. **Your real durations** from the 2010 Closter renovation or the Chinery Apartments project.
+3. **Whether Spectrum Drive in Edison has room.** One phone call to your own facilities staff.
 
 ---
 
 Sources checked:
 
-- Antonio, 2026-09-02: 2027 means occupancy by the end of the year.
+- Antonio, 2026-09-02: occupancy by 31 December 2027, and the $1 million includes acquisition.
 - Date arithmetic computed 2026-09-02: 485 days to 31 December 2027.
-- `2026_Facility_List.xlsx`, supplied 2026-08-31: 27 facilities, 23 owned by Spectrum, the two
-  church owned Adult Training Centers in North Haledon since 1989 and Teaneck since 2006, and
-  the Closter ICF renovated in 2010. See `/outreach/facilities.md`.
-- Verified organization facts list: the $1 million high needs medical group home targeted for
-  2027.
-- **Phase durations in the three path table are planning assumptions, clearly labelled, not
-  Spectrum data and not industry data.** No source was available for either. They exist to
-  size the problem and must be replaced.
-- New Jersey land use approval and licensure timelines: **not verified.** No source was
-  reachable.
+- **N.J.S.A. 40:55D-66.1**, community residences as a permitted use in all residential
+  districts, the six person threshold, and the fifteen person cap. **Level B**, search
+  attributed, primary source not openable from this environment:
+  - https://law.justia.com/codes/new-jersey/title-40/section-40-55d-66-1/
+  - https://law.justia.com/codes/new-jersey/2015/title-40/section-40-55d-66.1
+  - Reproduced in the published ordinances of East Brunswick, Roselle Park, Cedar Grove, Long
+    Branch, Wharton, High Bridge, Fairview, Greenwich, and Rockaway via ecode360.com.
+- **Municipal Land Use Law**, group homes as an inherently beneficial use. **Level B**:
+  https://dep.nj.gov/wp-content/uploads/hpo/docs/law/clg-municipal-land-use-law.pdf
+- **N.J.A.C. 10:44A**, standards for community residences, named as the governing licensing
+  regulation. **Level B**:
+  https://www.nj.gov/humanservices/ool/documents/10_44A_eff_4_18_05.pdf
+- NJ DDD Office of Licensing process description. **Level B**:
+  https://www.nj.gov/humanservices/opia/providers/licensing/index.shtml and
+  https://www.nj.gov/humanservices/ddd/providers/apply/
+- "Medically supportive community residence" as an alternative to an ICF: **Level C**, a peer
+  provider's website, not a State source. Not relied on. Flagged for confirmation.
+- `2026_Facility_List.xlsx`, supplied 2026-08-31: the campus addresses, the seven non
+  residential owned sites, and the fact that every Spectrum group home is six bedrooms except
+  Paramus at seven and the Bergenfield respite at three. Computed from the file.
+- **No licensure duration was found published.** Not asserted anywhere above.

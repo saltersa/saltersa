@@ -93,10 +93,11 @@ Do two things instead.
 - `[TOWN]` or `[COUNTY]`, and `[YEAR]` from `/outreach/facilities.md`.
 - `[SIGNATURE BLOCK]`:
 
-> Salvador Moran, Chief Executive Officer, for elected officials
-> or Antonio Salters, [ANTONIO: TITLE], asalters@spectrumforliving.org, for staff
-> Spectrum for Living
-> [PHONE] | [EMAIL]
+> Salvador Moran, Chief Executive Officer, smoran@spectrumforliving.org, 646.879.3152
+> for elected officials
+>
+> Antonio Salters, Chief Operating Officer, asalters@spectrumforliving.org
+> for staff
 
 See the signature rule in `cold_email.md`. Elizabeth Boyajian does not sign government
 outreach.

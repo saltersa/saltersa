@@ -81,15 +81,16 @@ Never estimate a figure on a call.
 
 ## FILL BEFORE DIALING
 
-- `[YOUR NAME]` and `[PHONE NUMBER]`: calls are made by Antonio or Salvador Moran, not by
-  Elizabeth Boyajian. Settled 2026-08-31. Salvador Moran calls elected officials, Antonio
-  calls staff. See the signature rule in `cold_email.md`.
+- `[YOUR NAME]` and `[PHONE NUMBER]`: Antonio Salters, Chief Operating Officer,
+  asalters@spectrumforliving.org, calls staff. Salvador Moran, Chief Executive Officer,
+  smoran@spectrumforliving.org, 646.879.3152, calls elected officials. Antonio's direct phone
+  is still outstanding.
 - Never state what Spectrum pays in rent, on a call or in writing. Settled 2026-08-31.
 - `[TOWN]` and `[YEAR]` from `/outreach/facilities.md`. Spectrum operates in 18
   municipalities. Do not use this script for a nineteenth town.
-- For Teaneck and North Haledon, use the Adult Training Center angle instead: Spectrum does
-  not own those buildings, which is a sharper opening. **Westwood is on hold** pending the
-  lease conflict in `/outreach/facilities.md`.
+- For Teaneck and North Haledon only, use the Adult Training Center angle: Spectrum does not
+  own those buildings. **Westwood is a standard town as of 2026-09-02**, ruled to be Spectrum's
+  own property.
 
 ---
 

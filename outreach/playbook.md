@@ -4,12 +4,42 @@ What to say when someone actually replies. Campaigns do not die at the sending s
 die in the third minute of the first meeting, when an official asks a reasonable question and
 gets a vague answer.
 
-Everything below is either answerable from verified facts, or flagged as a gap you must close
-before you take a meeting. Nothing is invented.
+Everything below is either answerable from verified facts, or flagged as a gap. Nothing is
+invented. Antonio ruled 2026-09-02 to start now rather than wait for a perfect brief, so the
+remaining gaps are marked by when they actually bite, not treated as blockers.
 
 ---
 
-# PART 1. THE SEVEN QUESTIONS YOU WILL BE ASKED
+# PART 0. THE POSITION YOU ARE NEGOTIATING FROM
+
+Before the questions, know where you stand.
+
+**N.J.S.A. 40:55D-66.1.** A community residence for the developmentally disabled housing **six
+or fewer people, excluding resident staff, is a permitted use in every residential district in
+New Jersey**, held to the same requirements as a single family house. Group homes are also named
+in the Municipal Land Use Law as an inherently beneficial use.
+
+**You are not asking a town for permission. You are asking for a building.**
+
+Three rules for using this.
+
+1. **Never say it as a threat.** "We do not need your approval" ends the relationship and buys
+   you nothing. Its value is internal: you negotiate from a settled position instead of a
+   hopeful one, and it shows in how you sit in the room.
+2. **Use it only if zoning is raised as an obstacle**, and then gently:
+   > My understanding is that a six bed community residence is a permitted use in residential
+   > zones under state law, on the same footing as a single family house. I am not here about
+   > zoning. I am here because you may have a building that is not doing anything.
+3. **Verify with counsel before you say it once.** It is Level B, and it depends on the home
+   being licensed as a community residence rather than an intermediate care facility. Both
+   caveats are in `schedule.md`. If counsel confirms, this is the strongest fact in the campaign.
+
+**Design at six residents.** Seven pushes the project into conditional use, a planning board,
+and roughly three extra months the schedule does not have.
+
+---
+
+# PART 1. THE QUESTIONS YOU WILL BE ASKED
 
 ## 1. "Will this lower property values?"
 
@@ -92,20 +122,29 @@ fear.
 **Do not guess at this. It is the question a mayor cares about most and a wrong answer is
 worse than no answer.**
 
-> [ASK ANTONIO, BLOCKING] How are placements determined? Is it state or DDD assignment, does
+> [ASK ANTONIO, BEFORE YOUR FIRST REAL MEETING] How are placements determined? Is it state or DDD assignment, does
 > Spectrum have any say, and can a town's own residents be prioritised in any lawful way? A
 > town giving up land will ask what its residents get, and "I will find out" is an acceptable
 > answer once, in the first meeting, and not twice.
 
 ## 7. "Do you pay property taxes?"
 
-> [ASK ANTONIO, BLOCKING] What is the property tax status of Spectrum's owned facilities?
-> Exempt, partially exempt, or taxed? Does the town receive a payment in lieu of taxes on
-> any of them?
+**Answered 2026-09-02.** Spectrum is a nonprofit, and Antonio has ruled this is not a
+consideration on Spectrum's side.
 
-This determines whether the town sees the project as a small revenue loss or a neutral. You
-own property in 18 towns, so the answer already exists in your finance records. Get it from
-Raquel Martinez before the first meeting.
+**It is still a consideration on theirs.** A town looking at a tax exempt use is looking at a
+ratable coming off the roll, and someone in the room will say so. Name it before they do:
+
+> We are a nonprofit, so you should assume the property comes off the tax roll. What you get
+> instead is a building maintained by an owner who has held property in this county for more
+> than forty years, six residents who become your neighbours, and staff jobs. If the ratable
+> question is the sticking point, say so and we will talk about what else we can offer.
+
+Do not pretend the loss is not real. Naming it first is what makes the rest credible.
+
+> [ASK ANTONIO, NOT BLOCKING] If a town pushes hard on ratables, is Spectrum open to a payment
+> in lieu of taxes, or a services in kind arrangement? Worth knowing your answer before someone
+> asks for it.
 
 ---
 
@@ -182,16 +221,27 @@ written at 6pm.
 
 ---
 
-## BEFORE THE FIRST MEETING, CLOSE THESE
+## THE REMAINING GAPS, AND WHY THEY NO LONGER BLOCK
 
-Five gaps, all answerable inside Spectrum, none of which I can answer from the files
-supplied. A meeting taken before these are closed will go badly.
+Antonio ruled 2026-09-02: **start now, do not be too choosy.** That is the right call. Waiting
+for a perfect brief costs weeks the deadline does not have, and most of these only matter once
+someone is actually interested.
 
-1. Resident count, staffing, and parking for the medical group home. Question 3.
-2. Placement rules and whether local residents can be prioritised. Question 6.
-3. Property tax status of Spectrum's owned facilities. Question 7.
-4. Whether Spectrum has ever closed a facility. Question 4.
-5. Whether the operations characterisation of the budget is accurate. Question 5.
+**Closed.** Property tax status, question 7. Spectrum is a nonprofit and this is not a
+consideration on Spectrum's side.
+
+**Answer before your first real meeting, not before your first email:**
+
+1. **Resident count, staffing, and parking.** Question 3. Design at six, per Part 0. That
+   answer alone covers most of it.
+2. **Placement rules and local priority.** Question 6. The one a mayor actually cares about.
+   "I will find out" is acceptable once, not twice.
+3. **Whether Spectrum has ever closed a facility.** Question 4. Ten minutes to check, and you
+   do not want to learn the answer in a meeting.
+4. **Whether the operations characterisation of the budget is accurate.** Question 5.
+
+None of these blocks a records request, a verification call, or a first email. Send those
+today.
 
 ---
 

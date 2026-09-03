@@ -85,12 +85,13 @@ unavailable" on at least one query.
   14 towns and 19 facilities, Passaic 3 and 4, Middlesex 1 and 4.
 - Analysis written to `/outreach/facilities.md`, computed from the file rather than typed.
 - ATC confirmed by Antonio 2026-08-31 as Adult Training Center.
-- **Unresolved conflict.** Antonio said on 2026-08-31 that no lease is listed in the facility
-  document. Cells G4, H4, and I4 of the `Facilities` sheet do list one for Carver ATC: term
-  `5 Years`, expiration `2023-12-31`, monthly `13309`. N. Haledon and Teaneck carry the same
-  three fields with 2030 expirations. There are no hidden rows, hidden columns, or cell
-  comments in the sheet. Per campaign rule 6 this is not resolved by me. Westwood outreach is
-  frozen until Antonio rules. Detail in `/outreach/facilities.md`.
+- **Westwood, resolved 2026-09-02.** Antonio said on 2026-08-31 that no lease is listed in the
+  facility document. Cells G4, H4, and I4 of the `Facilities` sheet do list one for Carver ATC:
+  term `5 Years`, expiration `2023-12-31`, monthly `13309`. N. Haledon and Teaneck carry the
+  same fields with 2030 expirations. There are no hidden rows, hidden columns, or cell comments
+  in the sheet. **Antonio ruled on 2026-09-02 that outreach treats both Westwood properties as
+  Spectrum's own.** That direction governs. The file has not been altered, and the discrepancy
+  is recorded here rather than erased. Westwood is unfrozen and both contacts are live.
 - Open items: a program named Guttenberg carrying a Bergenfield address, and empty Fire
   Suppression and Generator columns on every row.
 
@@ -113,6 +114,61 @@ unavailable" on at least one query.
   appears in the verified facts list only as the source of the Voices Award. Columbia Bank is
   in the file, at $70,000 across 2022 to 2025.
 - Analysis written to `/outreach/grant_history.md`.
+
+---
+
+## LEVEL B, LEGAL AND REGULATORY, RESEARCHED 2026-09-02
+
+Antonio asked on 2026-09-02 for the build duration to be researched rather than guessed. Search
+was reachable even though no page could be opened. These are the results.
+
+### B6. N.J.S.A. 40:55D-66.1, community residences as a permitted use
+
+- Accessed 2026-09-02 via search. Pages not openable.
+- Attributed URLs:
+  - https://law.justia.com/codes/new-jersey/title-40/section-40-55d-66-1/
+  - https://law.justia.com/codes/new-jersey/2015/title-40/section-40-55d-66.1
+  - Reproduced in published municipal ordinances via ecode360.com for East Brunswick, Roselle
+    Park, Cedar Grove, Long Branch, Wharton, High Bridge, Fairview, Greenwich, and Rockaway.
+- What the results asserted: community residences for the developmentally disabled are a
+  permitted use in all residential districts of a municipality, with the same requirements as
+  single family dwelling units. Six or fewer people excluding resident staff is permitted by
+  right. More than six may be made a conditional use requiring planning board approval. No more
+  than fifteen persons other than resident staff.
+- Status: **Level B, but unusually well corroborated.** Two independent searches returned
+  consistent statutory language, and at least nine municipalities reproduce it in their own
+  ordinances. Still not Level A, because no primary source could be opened.
+- **This is the most consequential finding in the campaign.** It may remove the land use
+  approval phase entirely. See `schedule.md` and `playbook.md` Part 0.
+- **Must be confirmed by counsel before it is stated to anyone**, and it depends on the license
+  class question in B8.
+
+### B7. Municipal Land Use Law, group homes as an inherently beneficial use
+
+- Accessed 2026-09-02 via search. Page not openable.
+- Attributed URL: https://dep.nj.gov/wp-content/uploads/hpo/docs/law/clg-municipal-land-use-law.pdf
+- What the results asserted: an inherently beneficial use is one universally considered of value
+  to the community because it fundamentally serves the public good, and the definition expressly
+  includes a group home.
+- Status: **Level B.** Supporting, not load bearing.
+
+### B8. Licensing class, the question that governs B6
+
+- Accessed 2026-09-02 via search.
+- Attributed URLs:
+  - https://www.nj.gov/humanservices/ool/documents/10_44A_eff_4_18_05.pdf
+  - https://www.nj.gov/humanservices/opia/providers/licensing/index.shtml
+  - https://www.nj.gov/humanservices/ddd/providers/apply/
+- What the results asserted: N.J.A.C. 10:44A sets standards for community residences for
+  individuals with developmental disabilities. The Office of Licensing reviews layout, safety
+  and maintenance. A provisional license is effective for less than one year.
+- **No published licensure duration was found.** Nothing is asserted about how long licensing
+  takes. The schedule flags it as an assumption.
+- **Open and blocking for the schedule:** is the high needs medical home licensed as a community
+  residence under 10:44A, or as an intermediate care facility like Closter? A description of
+  "medically supportive community residences" for medically fragile people needing 24 hour
+  nursing, framed as an alternative to an ICF, came from a peer provider's website
+  (ncfl.net) and is **Level C. Not relied on.**
 
 ---
 
@@ -220,11 +276,17 @@ Blocked on the same access problem, listed so nothing is silently dropped:
 Answered on 2026-08-31: the complete property list and the grant file, both supplied. See
 Level D above.
 
+Resolved 2026-09-02: Westwood ruled to be Spectrum's own property for outreach purposes, both
+contacts unfrozen. Signer details confirmed: Antonio Salters, Chief Operating Officer,
+asalters@spectrumforliving.org. Salvador Moran, Chief Executive Officer,
+smoran@spectrumforliving.org, 646.879.3152. Occupancy due 31 December 2027. The $1 million
+includes acquisition. Property tax is not a consideration on Spectrum's side.
+
 Still open, in priority order:
 
-1. **Westwood lease.** Carver ATC shows a lease expiring 2023-12-31 on a list dated 2026.
-   Holdover, renewed, or stale data? This decides whether Westwood is the most urgent target
-   in the campaign. Nothing goes to Westwood until this is answered.
+1. **License class.** Community residence under N.J.A.C. 10:44A, or intermediate care facility?
+   This governs whether N.J.S.A. 40:55D-66.1 applies, which governs the approvals phase, which
+   governs whether 31 December 2027 is reachable. Highest value open question in the campaign.
 2. **Antonio's job title**, his phone, and the phone and email for Salvador Moran. Resolved
    2026-08-31 from the connected Outlook account: Antonio Salters,
    asalters@spectrumforliving.org. The Microsoft 365 profile returns no job title. Salvador

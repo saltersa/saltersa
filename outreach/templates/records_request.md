@@ -39,9 +39,9 @@ If the borough requires a specific request form, please let me know and I will c
 Thank you for your help.
 
 Antonio Salters
-[ANTONIO: TITLE]
+Chief Operating Officer
 Spectrum for Living
-asalters@spectrumforliving.org | [PHONE]
+asalters@spectrumforliving.org | [ANTONIO PHONE]
 
 ---
 
@@ -94,8 +94,8 @@ Log every outcome in `tracker.csv` the day it happens.
 - `[TITLE] [LAST NAME]` verified by phone using `templates/verification_call.md`, approved
   2026-09-02. All 18 towns still read `TO VERIFY` until those calls are made.
 - `[TOWN]` and `[YEAR]` from `/outreach/facilities.md`.
-- `[ANTONIO: TITLE]` and `[PHONE]`.
-- Westwood is frozen. See the lease conflict in `/outreach/facilities.md`.
+- `[ANTONIO PHONE]`, the only outstanding field.
+- **Westwood is included as of 2026-09-02.** All 18 towns are live.
 
 ---
 
