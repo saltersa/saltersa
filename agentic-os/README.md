@@ -2,8 +2,10 @@
 
 Operating infrastructure for the COO's seven accountability domains: property and facilities, fleet, IT, grants, finance support, operating procedures, and systems.
 
-**Current phase:** Phase 0 — complete, awaiting sign-off.
+**Current phase:** Phase 1 — approved 2026-09-17, **blocked on access**.
 **Nothing has been installed, configured, or connected.**
+
+> **Read [`phase0/08-amendments-and-answers.md`](phase0/08-amendments-and-answers.md) first.** It records the sign-off decision, all amendments, and the answers to the three blocking questions. Where it conflicts with the original Phase 0 documents, it wins.
 
 ---
 
@@ -23,6 +25,15 @@ Operating infrastructure for the COO's seven accountability domains: property an
 | [`05-paperclip-decision.md`](phase0/05-paperclip-decision.md) | (d) Paperclip build-vs-adopt |
 | [`06-model-tier-map.md`](phase0/06-model-tier-map.md) | (e) Initial model tier map |
 | [`07-access-and-questions.md`](phase0/07-access-and-questions.md) | Access request, blocking questions |
+
+## Phase 1 artifacts
+
+| File | Contents |
+|---|---|
+| [`00-implementation-plan.md`](phase1/00-implementation-plan.md) | Milestones, owners, dates (T+n from access), measurable outcomes |
+| [`01-paperclip-adversarial-test.md`](phase1/01-paperclip-adversarial-test.md) | 8-case enforcement test protocol — start condition 1 |
+| [`02-risk-analysis.md`](phase1/02-risk-analysis.md) | Risk register R-001 … R-009, accepted residual risk |
+| [`03-systems-of-record-audit.md`](phase1/03-systems-of-record-audit.md) | Live M365 audit — resolves Q1, surfaces R-005/R-006/R-007 |
 
 ---
 
@@ -47,9 +58,13 @@ Operating infrastructure for the COO's seven accountability domains: property an
 
 ## Rollout order
 
-IT → Fleet → Procedures → Property & Facilities → Grants → Finance → Communications
+**Facilities → Fleet → Procedures → IT → Grants → Finance (Raquel's lead) → Communications**
 
-Lowest-risk and highest-value first; finance and external communications last, per operating rule 9.
+Changed by COO direction on 2026-09-17; the order reflects the politics. Jude Catral owns the first two departments, so they are one director, one 1:1, one co-signature conversation. Finance last under Raquel's lead.
+
+Consequences recorded as R-008 (the PHI scrubber moves to a Phase 4 deliverable with its own eval set, and gates facilities go-live) and R-009 (observability substrate built directly in Phase 1 rather than inherited from the IT agent). The Phase 0 recommendation was IT → Fleet → Procedures → Property → Grants → Finance → Comms.
+
+**Department gates, binding:** COO 1:1 with the owning director, then charter co-signed by that director, then scorecard routing confirmed director-first. No co-signature, no go-live.
 
 ---
 
@@ -62,6 +77,8 @@ Lowest-risk and highest-value first; finance and external communications last, p
 - **The grants agent never submits.** The finance agent never executes payments.
 - **Cite or flag.** An agent that cannot cite a source says so rather than guessing.
 - **Two consecutive failures halts the workflow and notifies.** No silent retries.
+- **All resident-facing communication is Tier 2 with full approval.** No pre-approved templates, no standing approval, no exceptions without written COO directive.
+- **Deterministic-first.** The 32% no-model figure is a floor, not a ceiling. Every phase ends with a pass asking what else stops calling a model.
 - **This design channel never accepts resident or consumer information.** The system handles Class C under a BAA; this conversation does not.
 
 ---
@@ -70,9 +87,9 @@ Lowest-risk and highest-value first; finance and external communications last, p
 
 | Phase | Contents | Status |
 |---|---|---|
-| 0 | Audit, architecture, sequencing, classification | **Complete — awaiting sign-off** |
-| 1 | Foundation: harness, routing, caching, accounting, vault, logging, backups | Blocked on sign-off |
-| 2 | Knowledge core | Blocked on Q1 |
+| 0 | Audit, architecture, sequencing, classification | **Accepted 2026-09-17** |
+| 1 | Foundation: harness, routing, caching, accounting, vault, logging, backups | **Approved — blocked on access** |
+| 2 | Knowledge core | Q1 partially resolved; needs one confirmation (R-005) |
 | 3 | Memory layer + multi-session replay benchmark | — |
 | 4 | Golden dataset, judge validated to 0.85+ agreement | — |
 | 5 | Department agents, in rollout order | — |

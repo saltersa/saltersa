@@ -2,6 +2,8 @@
 
 **Phase 0 deliverable (b).** Value, data quality, and risk scoring that determines rollout order. Per operating rule 9: lowest-risk, highest-value first; finance and external communications last.
 
+> **SUPERSEDED IN PART.** The COO changed the rollout order on 2026-09-17 to **Facilities → Fleet → Procedures → IT → Grants → Finance (Raquel's lead) → Communications**, on organizational grounds. The scoring, reasoning, and per-department analysis below remain current and are the basis for the risk consequences that change carries — see [`08-amendments-and-answers.md`](08-amendments-and-answers.md) and risks R-008 / R-009. The `Order` column reflects the Phase 0 *recommendation*, not the approved sequence.
+
 ---
 
 ## Scoring
@@ -10,7 +12,7 @@ Each dimension scored 1–5. **Value** = operating impact if the agent works. **
 
 **Readiness = Value + Data Quality + (6 − Risk)**
 
-| Department | Value | Data quality | Risk | Readiness | Order |
+| Department | Value | Data quality | Risk | Readiness | Order (recommended) |
 |---|---|---|---|---|---|
 | **IT** | 4 | 4 | 2 | **12** | 1 |
 | **Fleet** | 3 | 4 | 1 | **11** | 2 |
