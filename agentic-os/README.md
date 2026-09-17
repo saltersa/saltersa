@@ -44,7 +44,7 @@ Operating infrastructure for the COO's seven accountability domains: property an
 | Management plane | Adopt Paperclip (MIT), control plane only, telemetry off, adversarial test before sign-off |
 | Router | Keep LiteLLM; OpenRouter demoted to fallback |
 | Agents | Thin custom on the Anthropic SDK, MCP tools, heartbeat to Paperclip |
-| Knowledge | Hybrid index over the authoritative doc store — **blocked on Q1** |
+| Knowledge | Hybrid index — **Google Workspace** for documents, M365 for mail/calendar |
 | Memory | Graphiti self-hosted, Kùzu backend, Apache 2.0 |
 | Workflows | Keep n8n, deterministic only — 32% of specified workflows should not call a model |
 | Models | Haiku 4.5 / Sonnet 5 / Opus 5 — one provider, one egress path, one audit story |
@@ -89,7 +89,7 @@ Consequences recorded as R-008 (the PHI scrubber moves to a Phase 4 deliverable 
 |---|---|---|
 | 0 | Audit, architecture, sequencing, classification | **Accepted 2026-09-17** |
 | 1 | Foundation: harness, routing, caching, accounting, vault, logging, backups | **Approved — blocked on access** |
-| 2 | Knowledge core | Q1 partially resolved; needs one confirmation (R-005) |
+| 2 | Knowledge core | **Target confirmed** — Google Workspace; split-tenant permission model open (R-005) |
 | 3 | Memory layer + multi-session replay benchmark | — |
 | 4 | Golden dataset, judge validated to 0.85+ agreement | — |
 | 5 | Department agents, in rollout order | — |

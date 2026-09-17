@@ -50,9 +50,11 @@ The main organizational site's General folder has not been touched since **Novem
 
 ## Finding 3 — Q1 resolves to a split answer, which your instruction did not anticipate
 
-By your own decision rule — *the one hosting finance, HR, and controlled documents* — SharePoint is eliminated on direct evidence. Google Workspace is the answer **by elimination**.
+**Status: RESOLVED 2026-09-17.**
 
-I want to be precise about the strength of that claim. My evidence is **negative, not positive**: I have verified SharePoint is empty. I have not verified Google Drive is full, because there is no Google connector in this session. The inference is strong but it is an inference.
+By your own decision rule — *the one hosting finance, HR, and controlled documents* — SharePoint was eliminated on direct evidence, leaving Google Workspace by elimination. That inference was negative rather than positive (SharePoint verified empty; Drive not verified full), so it was flagged as needing confirmation.
+
+**Confirmed by COO, 2026-09-17: "Google Workspace is the platform that we will use."** The inference and the decision agree.
 
 **Resulting architecture, which differs from the single-tenant model your instruction assumed:**
 
@@ -61,14 +63,16 @@ I want to be precise about the strength of that claim. My evidence is **negative
 | Email | **Microsoft 365** | Verified directly |
 | Calendar | **Microsoft 365** | Verified directly |
 | Teams chat | **Microsoft 365** | Verified directly |
-| Documents / SOPs / policies / contracts | **Google Workspace** | By elimination — needs one confirmation |
-| Finance, HR, controlled documents | **Google Workspace** | By elimination — needs one confirmation |
+| Documents / SOPs / policies / contracts | **Google Workspace** | **Confirmed by COO 2026-09-17** |
+| Finance, HR, controlled documents | **Google Workspace** | **Confirmed by COO 2026-09-17** |
 
 **Consequence for your instruction "permission model inherits the authoritative tenant":** it cannot, as written. There are two tenants and the authoritative one differs by domain. The Phase 2 permission model must therefore resolve identity across both — a Google Drive ACL and an Entra identity for the same person, reconciled to one principal.
 
 That is more work than a single-tenant model, and it is unavoidable rather than optional. It is also, precisely, the parallel-source-of-truth defect your operating principles name: this organization runs two collaboration platforms and the boundary between them is undocumented. Phase 2 does not fix that. It does have to survive it.
 
-**What I need from you:** one line confirming Google Workspace holds finance, HR, and controlled documents. If it does not — if those live in a file server, a finance system, or somewhere else entirely — say where, because the elimination inference then fails and Phase 2 has no target.
+**Phase 2 target is settled:** Google Workspace for documents, Microsoft 365 for email and calendar.
+
+**What remains open is not the target but the permission model** — see R-005. Two tenants, authoritative by domain, requiring identity reconciliation to one principal. Confirming the platform removed the ambiguity about which platform; it did not remove that work.
 
 ## Finding 4 — The M365 connector is over-permissioned. Security finding, Phase 1 item.
 
@@ -104,7 +108,7 @@ The SharePoint host is `spectrumforliving2.sharepoint.com`, not `spectrumforlivi
 
 | Domain | Was | Now |
 |---|---|---|
-| Documents / SOPs / policies | UNRESOLVED | **Google Workspace** — pending one confirmation |
+| Documents / SOPs / policies | UNRESOLVED | **Google Workspace — CONFIRMED** |
 | Email internal + external | Outlook / M365 | **Confirmed M365** |
 | Calendar | UNRESOLVED | **Confirmed M365** |
 | Teams chat | Not listed | **M365** — added, Class B–C |

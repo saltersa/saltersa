@@ -79,7 +79,7 @@ This distinction is load-bearing and belongs in any compliance conversation abou
 
 ## R-005 — Two collaboration tenants, split authoritative store
 
-**Open. New finding, 2026-09-17. See `03-systems-of-record-audit.md`.**
+**Open — narrowed 2026-09-17. Platform confirmed; permission model still to design. See `03-systems-of-record-audit.md`.**
 
 **Risk.** Email and calendar are authoritative in Microsoft 365, verified directly. SharePoint is a dormant shell — three sites, main site untouched since November 2021, zero policy or budget documents — so documents are authoritative in Google Workspace by elimination. The Phase 2 permission model must reconcile Google Drive ACLs and Entra identities to one principal.
 
@@ -87,7 +87,9 @@ This distinction is load-bearing and belongs in any compliance conversation abou
 
 **Controls.** Phase 2 designates one authoritative store per data domain explicitly, in writing, and agents cite only from it. The non-authoritative platform is indexed read-only for search and is never cited as a system of record.
 
-**Outstanding.** One confirmation from the COO that Google Workspace holds finance, HR, and controlled documents. The elimination inference is strong but negative — SharePoint is verified empty; Google Drive is not verified full.
+**Closed sub-item.** COO confirmed 2026-09-17: *"Google Workspace is the platform that we will use."* The target is settled.
+
+**Still open.** The permission model itself. Google Drive ACLs and Entra identities must reconcile to one principal, and no agent may cite a document whose permission state it cannot resolve. That is Phase 2 design work, not a question for the COO. Confirming the platform did not remove this; it removed the ambiguity about which platform it applies to.
 
 ---
 
@@ -152,7 +154,7 @@ This distinction is load-bearing and belongs in any compliance conversation abou
 | R-002 | PHI in free text despite scrubbing | **Accepted, controls mandatory** | COO / Scrubber owner |
 | R-003 | Paperclip enforcement unverified | Open — closes on test | Build |
 | R-004 | Paperclip maturity, pseudonymous maintainer | Accepted, controlled | Sean |
-| R-005 | Two tenants, split authoritative store | Open — needs confirmation | COO |
+| R-005 | Two tenants, split authoritative store | Open — platform confirmed; permission model to design | Build |
 | R-006 | M365 connector write and send scopes | Open — Phase 1 remediation | Sean |
 | R-007 | Possible legacy M365 tenant | Open — investigation | Sean |
 | R-008 | Facilities-first precedes proven scrubber | Open — controls are gates | COO / Build |

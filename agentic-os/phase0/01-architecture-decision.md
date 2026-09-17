@@ -50,7 +50,9 @@ That matters because the naive path silently degrades: by default every `cache_c
 
 **Decision:** Hybrid keyword + semantic index over SOPs, policies, contracts, grant files, property records, fleet history, budgets, and IT documentation. Permissions mirror the source system; citation is enforced on every factual claim; an agent that cannot cite says so rather than guessing.
 
-**BLOCKED on Q1.** You run both Google Workspace and Microsoft 365. Until one is named authoritative for documents, ingestion, permissioning, and the index are undesignable. Building against both is exactly the parallel-source-of-truth defect the directive forbids.
+**RESOLVED 2026-09-17. Target: Google Workspace for documents; Microsoft 365 for email and calendar.** Confirmed by the COO and corroborated by live audit — SharePoint holds no policy or budget documents and its main site has been dormant since November 2021 (`../phase1/03-systems-of-record-audit.md`).
+
+**What remains:** the authoritative store is split by domain, so the permission model must reconcile Google Drive ACLs and Entra identities to one principal. No agent cites a document whose permission state it cannot resolve. Tracked as R-005.
 
 **Design constraint regardless of answer:** the index stores embeddings and pointers. Documents stay in the source system. This keeps permissioning honest (we re-check at read time against the source) and keeps the purge story simple.
 
@@ -133,7 +135,7 @@ That matters because the naive path silently degrades: by default every `cache_c
 | Management plane | Paperclip, control plane only | MIT, self-hosted | Low |
 | Router | LiteLLM | Open source, self-hosted | Low |
 | Agent framework | Thin custom on Anthropic SDK | — | Low |
-| Knowledge | Hybrid index, pointers only | **Blocked on Q1** | Low |
+| Knowledge | Hybrid index, pointers only | Google Workspace (docs) + M365 (mail/cal) | Low |
 | Memory | Graphiti + Kùzu | Apache 2.0, self-hosted | Low |
 | Workflows | n8n, deterministic only | Retained | Low |
 | Integrations | MCP servers | Protocol-native | Low |

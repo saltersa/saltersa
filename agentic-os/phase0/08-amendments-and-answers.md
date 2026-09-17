@@ -89,12 +89,12 @@ Instrumentation only. The four levers stay out of agent scope. The intervention 
 
 **Answer given:** *"[Microsoft 365 / Google Workspace — pick the one hosting finance, HR, and controlled documents] is authoritative for Phase 2. The other platform is read-only reference, indexed for search but never cited as a system of record. Permission model inherits the authoritative tenant."*
 
-**Status: PARTIALLY RESOLVED.** The answer was a decision rule, not a decision. I executed the rule against the live Microsoft 365 tenant rather than returning the question. Full findings: `../phase1/03-systems-of-record-audit.md`.
+**Status: RESOLVED 2026-09-17.** The answer as first given was a decision rule, not a decision. I executed the rule against the live Microsoft 365 tenant rather than returning the question. Full findings: `../phase1/03-systems-of-record-audit.md`.
 
 | Domain | Authoritative | Basis |
 |---|---|---|
 | Email, calendar, Teams chat | **Microsoft 365** | Verified directly |
-| Documents, SOPs, finance, HR, controlled | **Google Workspace** | By elimination — **needs one confirmation** |
+| Documents, SOPs, finance, HR, controlled | **Google Workspace** | **Confirmed by COO 2026-09-17** |
 
 SharePoint is a dormant shell: three sites, main site's General folder untouched since November 2021, zero documents matching "policy" or "budget" tenant-wide. A $48M organization's controlled documents are not there.
 
@@ -103,7 +103,9 @@ SharePoint is a dormant shell: three sites, main site's General folder untouched
 1. **The answer is split by domain.** Email is M365; documents are Google. There is no single winner.
 2. **"Permission model inherits the authoritative tenant" cannot hold as written** — there are two tenants and the authoritative one differs by domain. Phase 2 must reconcile Google Drive ACLs and Entra identities to one principal. More work, unavoidable, recorded as R-005.
 
-**Outstanding:** one line confirming Google Workspace holds finance, HR, and controlled documents. The evidence is negative (SharePoint verified empty), not positive (Drive not verified full). If those documents live somewhere else — a file server, the finance system — the elimination fails and Phase 2 has no target.
+**Confirmed 2026-09-17:** *"Google Workspace is the platform that we will use."* Phase 2 targets Google Workspace for documents, Microsoft 365 for email and calendar.
+
+**What that confirmation did not settle:** the permission model. Two tenants remain, authoritative by domain, and Phase 2 must reconcile Drive ACLs and Entra identities to one principal. R-005 stays open as design work rather than as a question.
 
 ### Q2 — PHI scope
 

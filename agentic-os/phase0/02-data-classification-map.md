@@ -24,10 +24,11 @@ Every department maps to exactly one authoritative system. Agents read and write
 
 | Domain | System of record | Class | Status |
 |---|---|---|---|
-| Documents / SOPs / policies | **UNRESOLVED — Google Workspace or Microsoft 365** | B (C for some contracts) | **Blocking Q1** |
+| Documents / SOPs / policies | **Google Workspace** | B (C for some contracts) | **Confirmed 2026-09-17** |
 | Email — internal | Outlook / Microsoft 365 | B–C | Confirmed reachable |
 | Email — external | Outlook / Microsoft 365 | B–C | Confirmed reachable |
-| Calendar | **UNRESOLVED — follows Q1** | B | Blocking Q1 |
+| Calendar | Microsoft 365 | B | Confirmed by live audit |
+| Teams chat | Microsoft 365 | B–C | Confirmed by live audit |
 | Work orders / facilities | To be inventoried | B | **Unknown — see gap list** |
 | Fleet records | To be inventoried | B | **Unknown** |
 | IT tickets / assets | To be inventoried | B | **Unknown** |
