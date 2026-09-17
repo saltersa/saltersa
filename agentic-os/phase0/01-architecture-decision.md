@@ -2,6 +2,8 @@
 
 **Phase 0 deliverable (a).** One decision per layer with short rationale. Alternatives are listed only where the decision is expensive or irreversible, one line each, per operating rule 1.
 
+> **AMENDED 2026-09-17 — the Director of IT role is being eliminated.** The directive's preference for *"self-hosted open-source where quality is comparable"* was written when a senior technical owner existed. That premise is gone, so the preference inverts: **managed where quality is comparable, self-hosted only where it buys something specific.** Component count drops from nine to five. ADR-01, ADR-05, ADR-06 and ADR-09 are amended below; see [`../phase1/04-it-director-removal-impact.md`](../phase1/04-it-director-removal-impact.md), which wins on conflict.
+
 Evaluation criteria applied in this order, per the directive: **control and reliability → cost efficiency → security → speed of new automation.** Platform decisions are additionally scored on integration surface, total cost of ownership, exit cost, and data portability before features.
 
 ---
@@ -16,7 +18,11 @@ Evaluation criteria applied in this order, per the directive: **control and reli
 
 **Exit cost:** Low by construction. Because agent outputs land in the systems of record and traces land in our own store, removing Paperclip costs the governance layer and nothing else. Re-implementing that layer custom is the 3–4 weeks we are deferring, not losing.
 
-**Alternative rejected:** Thin custom control plane — correct only if the adversarial enforcement test in Phase 1 fails.
+**AMENDED 2026-09-17 — re-opened.** The adopt case rested on a maintainer existing; R-004 accepted abandonment risk *because Sean could maintain it*. Without an internal technical owner, adopting a six-month-old, pseudonymously-maintained, self-hosted Node application as the governance layer is a materially different decision. Paperclip stays in the plan, but **the adversarial test is now a go/no-go on the governance approach, not just on the product.**
+
+**Alternatives, in order of preference if the test disappoints:**
+1. **Shrink the requirement** — spend caps at the provider and in the router, an approval queue in Postgres, audit trail in the trace store we build regardless. Smaller to own than either alternative below. This option did not exist in Phase 0 because the governance requirement assumed someone could run a governance application.
+2. Thin custom control plane — 3–4 weeks of code that still needs an owner.
 
 **Verification before Phase 1 sign-off:** Attempt to exceed a budget cap and attempt to execute past an approval gate. Report actual behavior, not README claims.
 
@@ -60,7 +66,9 @@ That matters because the naive path silently degrades: by default every `cache_c
 
 ## ADR-05 — Memory layer (Layer 2): Graphiti, self-hosted, Kùzu backend
 
-**Decision:** [Graphiti](https://github.com/getzep/graphiti) self-hosted, Apache 2.0, on the embedded Kùzu backend to start.
+> **REVERSED 2026-09-17. Decision is now Postgres + pgvector with a bi-temporal schema; Graphiti is the named challenger at the Phase 3 replay benchmark.** The reasoning below survives; the conclusion does not. Bi-temporal modelling is a *schema pattern*, not a product — valid-from / valid-to / recorded-at columns with source-episode references reproduce the audit property in Postgres. What is given up is automatic entity extraction and multi-hop traversal. At seven agents and 25 sites that trade is worth removing an entire service, and knowledge and memory then share one store. If Postgres + pgvector cannot surface the right prior context on the reconstructed historical scenarios, Graphiti returns — justified by measurement rather than architecture taste. **Phase 3 still does not sign off without that benchmark.**
+
+**Original decision (superseded):** [Graphiti](https://github.com/getzep/graphiti) self-hosted, Apache 2.0, on the embedded Kùzu backend to start.
 
 **Rationale, in the directive's own platform terms:**
 
@@ -83,6 +91,8 @@ That matters because the naive path silently degrades: by default every `cache_c
 ---
 
 ## ADR-06 — Deterministic workflows: keep n8n, narrowed
+
+**AMENDED 2026-09-17: n8n Cloud, not self-hosted.** ~$25–50/mo to stop running a workflow server. Its core value — a non-engineer can see and edit the workflows — matters *more* without an IT Director, not less.
 
 **Decision:** Keep n8n. Restrict it to deterministic work: scheduled triggers, webhook intake, system-to-system sync, notification fan-out, the batched approval digest delivery.
 
@@ -111,6 +121,8 @@ That matters because the naive path silently degrades: by default every `cache_c
 ---
 
 ## ADR-09 — Resilience: two nodes, managed Postgres, tested restore
+
+> **AMENDED 2026-09-17: managed app platform, not raw droplets.** Removes OS patching, security updates and load-balancer config — the work that actually requires an IT Director and the work that quietly lapses without one. Infrastructure cost is roughly unchanged at **$140–225/mo**; the simplification is free in dollars and buys back the thing that needs a person. Postgres carries pgvector for the merged knowledge and memory store (ADR-05).
 
 **Decision:** Replace the single DigitalOcean VM with the cheapest architecture that survives its loss.
 

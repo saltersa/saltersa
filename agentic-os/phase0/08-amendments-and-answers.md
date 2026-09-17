@@ -117,7 +117,11 @@ SharePoint is a dormant shell: three sites, main site's General folder untouched
 
 **Answer:** Sean, effective Phase 1, budgeted at 9–11 hours monthly plus training time, named in the runbook with a designated backup. His hours and the COO's 2–4 approval hours appear in the monthly ops report as a tracked cost of the system.
 
-**Status: RESOLVED.** Condition 4 met at approval. **Outstanding:** the designated backup is not yet named — required before Phase 9 handoff, and worth naming earlier, since a single named owner with no backup is the same single-point-of-failure problem the architecture just spent $100/month eliminating at the infrastructure layer.
+**Status: REOPENED 2026-09-17 — the Director of IT role is being eliminated.** Condition 4 is void as answered; the condition itself stands. See R-010 and [`../phase1/04-it-director-removal-impact.md`](../phase1/04-it-director-removal-impact.md).
+
+Of the three blocking questions, this was the weakest answer at the time — a single named owner with no designated backup. It is now unanswered, and the answer costs money: an external technical owner at an estimated $1,000–2,500/month. The work did not change; its visibility and unit cost did.
+
+**Original answer, for the record:** **Outstanding:** the designated backup is not yet named — required before Phase 9 handoff, and worth naming earlier, since a single named owner with no backup is the same single-point-of-failure problem the architecture just spent $100/month eliminating at the infrastructure layer.
 
 ---
 

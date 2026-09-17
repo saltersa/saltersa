@@ -2,7 +2,9 @@
 
 Operating infrastructure for the COO's seven accountability domains: property and facilities, fleet, IT, grants, finance support, operating procedures, and systems.
 
-**Current phase:** Phase 1 — approved 2026-09-17, **blocked on access**.
+**Current phase:** Phase 1 — approved 2026-09-17, **blocked on access and on naming a technical owner (R-010)**.
+
+> ⚠️ **The Director of IT role is being eliminated.** Condition 4 is void, the architecture simplifies from nine components to five, and a **departing-admin access review (R-011) starts this week** independent of everything else. Read [`phase1/04-it-director-removal-impact.md`](phase1/04-it-director-removal-impact.md).
 **Nothing has been installed, configured, or connected.**
 
 > **Read [`phase0/08-amendments-and-answers.md`](phase0/08-amendments-and-answers.md) first.** It records the sign-off decision, all amendments, and the answers to the three blocking questions. Where it conflicts with the original Phase 0 documents, it wins.
@@ -34,6 +36,7 @@ Operating infrastructure for the COO's seven accountability domains: property an
 | [`01-paperclip-adversarial-test.md`](phase1/01-paperclip-adversarial-test.md) | 8-case enforcement test protocol — start condition 1 |
 | [`02-risk-analysis.md`](phase1/02-risk-analysis.md) | Risk register R-001 … R-009, accepted residual risk |
 | [`03-systems-of-record-audit.md`](phase1/03-systems-of-record-audit.md) | Live M365 audit — resolves Q1, surfaces R-005/R-006/R-007 |
+| [`04-it-director-removal-impact.md`](phase1/04-it-director-removal-impact.md) | **Role elimination: simplification, cost, access review (R-010/011/012)** |
 
 ---
 
@@ -41,18 +44,20 @@ Operating infrastructure for the COO's seven accountability domains: property an
 
 | Layer | Decision |
 |---|---|
-| Management plane | Adopt Paperclip (MIT), control plane only, telemetry off, adversarial test before sign-off |
+| Management plane | Paperclip (MIT) **re-opened** — adversarial test is now go/no-go on the governance approach |
 | Router | Keep LiteLLM; OpenRouter demoted to fallback |
 | Agents | Thin custom on the Anthropic SDK, MCP tools, heartbeat to Paperclip |
 | Knowledge | Hybrid index — **Google Workspace** for documents, M365 for mail/calendar |
-| Memory | Graphiti self-hosted, Kùzu backend, Apache 2.0 |
-| Workflows | Keep n8n, deterministic only — 32% of specified workflows should not call a model |
+| Memory | **Postgres + pgvector, bi-temporal schema** (Graphiti = Phase 3 challenger) |
+| Workflows | **n8n Cloud**, deterministic only — 32% of workflows should not call a model |
 | Models | Haiku 4.5 / Sonnet 5 / Opus 5 — one provider, one egress path, one audit story |
-| Resilience | 2 droplets + managed Postgres + Spaces; live restore test gates sign-off |
+| Resilience | **Managed app platform** + managed Postgres + Spaces; live restore test gates sign-off |
 
 **Changed from the directive:** DeepSeek dropped (offshore audit surface not repaid by ~$8–15/mo saving). Fable 5.1 replaced by Opus 5 as strategic tier (half the price; Fable 5.1 cannot run under the required retention posture). No local GPU for Class C (BAA + HIPAA-ready configuration instead; $15–30k capex avoided).
 
-**Estimated run rate:** $125–185/mo infrastructure, $50–250/mo models. Proposed initial hard cap: $450/mo.
+**Estimated run rate:** $140–225/mo infrastructure, $50–250/mo models, **$1,000–2,500/mo external technical owner** (R-010). Total $1,190–2,975/mo.
+
+The owner line is not new cost — it was inside a salary. Removing the role converts it from payroll to invoice and makes it visible. **$12–30k annually**, and it should not be presented to the CEO as a saving.
 
 ---
 

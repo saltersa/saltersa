@@ -95,11 +95,11 @@ This distinction is load-bearing and belongs in any compliance conversation abou
 
 ## R-006 — M365 connector holds write and send scopes
 
-**Open. New finding, 2026-09-17. Phase 1 remediation item.**
+**Open. New finding, 2026-09-17. Escalated to critical path — see R-011.**
 
 **Risk.** The connector currently holds `Files.ReadWrite.All`, `Mail.ReadWrite`, `Mail.Send`, `Calendars.ReadWrite`, and `MailboxSettings.ReadWrite` on the COO's account. `Mail.Send` is a Tier 2 capability with no approval gate in front of it, predating the governance model. Anything authenticating through this connector can send mail as the COO today.
 
-**Control.** Reduce to read-only until the approval gate exists in Paperclip and has passed T4 and T5. Restore write scopes per-capability, gated, in Phase 6. Owner: Sean. Entra admin change.
+**Control.** Reduce to read-only until the approval gate exists in Paperclip and has passed T4 and T5. Restore write scopes per-capability, gated, in Phase 6. Entra admin change. **Owner reassigned — see R-011; this is now part of the departing-admin access review and is time-boxed to the departure date.**
 
 **Residual after remediation.** Read-only access to the COO's mail, calendar, files, and sites by the connector. Acceptable for Phases 1–5; re-assessed at Phase 6 when the communications assistant needs send capability behind a gate.
 
@@ -111,7 +111,7 @@ This distinction is load-bearing and belongs in any compliance conversation abou
 
 **Risk.** The SharePoint host is `spectrumforliving2.sharepoint.com`. The `2` suffix commonly indicates the preferred name was already taken, most often by an earlier tenant of the same organization. If a legacy tenant exists and holds data, it is an un-inventoried system of record that may contain controlled documents.
 
-**Control.** Sean to confirm existence and disposition. If it exists and holds data, it enters the classification map before Phase 2.
+**Control.** Confirm existence and disposition **before the IT Director's departure** — this is undocumented knowledge that leaves with the person (R-011). If it exists and holds data, it enters the classification map before Phase 2.
 
 ---
 
@@ -131,6 +131,48 @@ This distinction is load-bearing and belongs in any compliance conversation abou
 4. Charter co-signature by Jude, and the COO 1:1, both precede go-live.
 
 **Residual.** Accepted, given controls 1–4 are gates and not intentions. If the scrubber cannot reach a defensible accuracy figure by the end of Phase 4, facilities does not ship first — fleet does, and facilities waits. That fallback is stated now so it is not a negotiation later.
+
+---
+
+## R-010 — No internal technical owner; Condition 4 void
+
+**Open. CRITICAL. Blocks Phase 1 start. New 2026-09-17 — the Director of IT role is being eliminated.**
+
+**Risk.** Phase 1 was approved on four conditions, the fourth being "Sean confirmed as owner." A role that is being eliminated cannot satisfy it. Beyond ownership, the Phase 0 architecture assumed a senior technical owner existed: nine components, seven self-hosted, on infrastructure requiring patching and upgrade management. Without one, the platform becomes an orphan — running, unpatched, until something breaks that nobody can fix.
+
+**Controls.** (a) Simplify to five components, managed-first — `04-it-director-removal-impact.md`. (b) Name a technical owner before Phase 1 starts: internal, contracted, or MSP. **Condition 4 stands; only its answer changed.**
+
+**Cost consequence, stated plainly.** The 9–11 hours per month did not appear with the role elimination — it was always there, inside a salary line. Removing the role converts it from salary to invoice and, per hour, likely raises it. Estimated **$1,000–2,500/month ($12–30k annually)** moving from payroll to contract services. Still comes out of labor share as the 990 reports it, but it is not a saving and must not be presented as one.
+
+**Leverage.** If IT coverage for 688 employees moves to an MSP, this platform should be a marginal add on that contract rather than a standalone retainer — most of the $1,000–2,500. **Do not sign a platform retainer before the org-wide IT coverage decision is made.** Sequence matters more than the number.
+
+**Residual.** Cannot be assessed until an owner is named.
+
+---
+
+## R-011 — Departing-admin access review
+
+**Open. URGENT — time-boxed to a departure date outside our control. New 2026-09-17.**
+
+**Risk.** An IT Director departure with outstanding administrative access is a standard access-review trigger. Entra/M365 Global Admin, Google Workspace Super Admin (now the authoritative document platform), DigitalOcean account ownership and API tokens, SSH keys on the existing VM, LiteLLM and n8n credentials, provider API keys, vendor portals, and whatever non-software access IT holds — network, telephony, door and building systems.
+
+**Interaction with R-006.** `Mail.Send` and write scopes on the COO's mailbox, held by a connector, during a period when admin access changes hands, is precisely the combination an auditor asks about. R-006 moves from hygiene item to critical path.
+
+**Also at risk: undocumented knowledge.** R-007's legacy-tenant question is the visible example. Ask before departure; that knowledge leaves with the person.
+
+**Ownership.** Reaches into HR process — offboarding is Joan Garcia's function, and access review is a joint IT / HR / Compliance exercise. Influence, not authority.
+
+**Control.** Enumerate and transition every item before the last day. **Starts this week, independent of every architecture decision.**
+
+---
+
+## R-012 — The IT agent has no charter co-signer
+
+**Open. Structural. New 2026-09-17.**
+
+**Risk.** The binding department gate requires each agent's charter to be co-signed by the owning director. IT is fourth in the rollout order and, after this change, has no director. The COO would co-sign with himself, defeating the gate's purpose — it exists so instrumentation is co-owned rather than imposed.
+
+**Control.** The co-signer is whoever holds operational accountability for IT by the time its turn comes — the MSP relationship owner, or the person the function folds under. **If the honest answer is "nobody but the COO," the IT agent is deferred rather than shipped without a co-signer.** A gate waived once is not a gate.
 
 ---
 
@@ -155,7 +197,10 @@ This distinction is load-bearing and belongs in any compliance conversation abou
 | R-003 | Paperclip enforcement unverified | Open — closes on test | Build |
 | R-004 | Paperclip maturity, pseudonymous maintainer | Accepted, controlled | Sean |
 | R-005 | Two tenants, split authoritative store | Open — platform confirmed; permission model to design | Build |
-| R-006 | M365 connector write and send scopes | Open — Phase 1 remediation | Sean |
-| R-007 | Possible legacy M365 tenant | Open — investigation | Sean |
+| R-006 | M365 connector write and send scopes | **Open — now critical path (R-011)** | Reassign |
+| R-007 | Possible legacy M365 tenant | Open — **ask before departure** | Reassign |
 | R-008 | Facilities-first precedes proven scrubber | Open — controls are gates | COO / Build |
 | R-009 | Observability substrate moved into Phase 1 | Open — scoped | Build |
+| **R-010** | **No internal technical owner; Condition 4 void** | **Open — BLOCKS PHASE 1** | **COO** |
+| **R-011** | **Departing-admin access review** | **Open — URGENT, time-boxed** | **COO / HR / IT** |
+| **R-012** | IT agent has no charter co-signer | Open — structural | COO |

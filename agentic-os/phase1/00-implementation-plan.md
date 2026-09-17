@@ -2,6 +2,8 @@
 
 **Objective.** Stand up the foundation layer — infrastructure, routing, caching, token accounting, credential vault, logging, alerting, backups, and the governed control plane — such that one task runs end to end with its routing decision, cache behavior, and cost visible, and the system survives the loss of any single node.
 
+> **AMENDED 2026-09-17 — the Director of IT role is being eliminated.** Condition 4 is void, the architecture simplifies from nine components to five, and a technical owner must be named before Phase 1 starts. Read [`04-it-director-removal-impact.md`](04-it-director-removal-impact.md) alongside this plan; where they conflict, that document wins. Milestones below are unchanged in shape but several owners are unassigned pending R-010.
+
 **Constraint, per COO approval:** nothing in Phase 1 touches a department system of record. All connections built in this phase are to infrastructure we own.
 
 **Dates are expressed as T+n business days from access grant.** Access has not been granted, so calendar dates would be fiction. T is the day the Tier 1 access in `../phase0/07-access-and-questions.md` lands.
@@ -20,7 +22,7 @@ Phase 1 cannot start without these. Every milestone below depends on them.
 | n8n instance access | Audit for the LLM-call-should-be-a-branch defect | **Not received** |
 | Hermes agent source | Confirm or reverse the Reset recommendation | **Not received** |
 | BAA status | Class C path gating | **Not confirmed** |
-| Sean confirmed as owner | Condition 4 | **Confirmed by COO** |
+| **Technical owner named** | **Condition 4 — VOID as answered; see R-010** | **BLOCKING** |
 
 **Delivery:** through whatever secret-sharing mechanism IT already uses. Not through this channel. No plain-text credentials anywhere, per operating rule 5.
 
@@ -30,28 +32,29 @@ Phase 1 cannot start without these. Every milestone below depends on them.
 
 | # | Milestone | Owner | Due | Measurable outcome |
 |---|---|---|---|---|
+| **M0** | **Departing-admin access review** | **COO / HR / IT** | **Immediate — before departure date** | **R-011.** Every admin credential enumerated and transitioned. Not on T+n: the window closes on a date we do not control. |
+| **M10** | M365 connector scope reduction | Reassign (R-011) | **Immediate** | **R-006.** Write and send scopes removed. Read-only set confirmed by `get_granted_scopes`. Now critical path. |
 | **M1** | Existing stack audit complete | Build | T+3 | Written findings on LiteLLM passthrough config, n8n workflow defect count, Hermes keep/reset confirmation. System-of-record product names captured for ≥3 of 5 unknown domains. |
-| **M2** | Resilient infrastructure provisioned | Build + Sean | T+7 | 2 droplets (separate regions), managed Postgres, Spaces, load balancer live. Monthly cost within $125–185. Loss of either droplet verified non-fatal by test. |
-| **M3** | Credential vault live | Build + Sean | T+9 | **Condition 2.** All keys in vault. Zero plain-text credentials, verified by repo and filesystem scan. Vault restore tested. |
+| **M2** | Infrastructure provisioned (**5-component managed stack**) | Build + tech owner | T+7 | Managed app platform, managed Postgres (pgvector), Spaces live. Monthly cost within $140–225. Loss of any single instance verified non-fatal by test. |
+| **M3** | Credential vault live | Build + tech owner | T+9 | **Condition 2.** All keys in vault. Zero plain-text credentials, verified by repo and filesystem scan. Vault restore tested. |
 | **M4** | Router configured, both cache paths | Build | T+12 | Named fallbacks per tier **and per data class**. Class C fails closed, verified by test. `cache_read_input_tokens` non-zero on repeat requests — the measured proof caching works. |
 | **M5** | Token accounting + spend caps | Build | T+14 | Every run logs input/output/cached/total tokens, model, cost, tier, data class. Per-agent and per-month caps enforced. Cost-by-tier query returns. |
 | **M6** | Trace store + observability substrate | Build | T+17 | Structured trace per run in our Postgres. Self-monitoring instrumentation live (see R-009 — no longer inherited from the IT agent). Two-consecutive-failures halt verified by induced failure. |
-| **M7** | Backup + live restore test | Build + Sean | T+19 | **Condition 3.** Backup of config, trace store, and memory state **restored into a clean environment and verified functional**. Not "backup exists" — restored. |
+| **M7** | Backup + live restore test | Build + tech owner | T+19 | **Condition 3.** Backup of config, trace store, and memory state **restored into a clean environment and verified functional**. Not "backup exists" — restored. |
 | **M8** | Paperclip deployed, telemetry off | Build | T+21 | Deployed, version pinned. Telemetry zero outbound, verified by egress capture (T8). |
 | **M9** | Paperclip adversarial test | Build | T+24 | **Condition 1.** All 8 cases executed, results written to `01a-paperclip-test-results.md`. T4/T5 failure inverts the adopt decision. |
-| **M10** | M365 connector scope reduction | Sean | T+5 | **R-006.** Write and send scopes removed. Read-only set confirmed by `get_granted_scopes`. |
 | **M11** | Smoke test | Build | T+26 | One task end to end. Routing decision, cache hit, and cost visible in the trace. Runs under a budget cap and an approval gate. |
 | **M12** | Phase 1 sign-off package | Build | T+28 | All four conditions documented as met. Rollback procedure written and tested. |
 
 **Critical path:** M2 → M3 → M4 → M6 → M7 → M8 → M9 → M11. **Estimated duration: 28 business days (~6 weeks) from access grant.**
 
-M10 is off the critical path and should happen immediately — it is an Entra admin change that closes an open security finding, and it does not wait for anything.
+**M0 and M10 do not wait for access, for sign-off, or for anything else in this plan.** They are time-boxed to a departure date outside our control, and they are the only items here with a deadline nobody at Spectrum sets.
 
 ---
 
 ## Deliverables
 
-1. Two-node infrastructure with managed Postgres, surviving single-node loss
+1. Five-component managed stack (app platform, Postgres+pgvector, Spaces, n8n Cloud, router), surviving single-instance loss
 2. LiteLLM routing with per-tier and per-data-class fallbacks, Class C failing closed
 3. Cache-aware prompt structure, both automatic and explicit `cache_control` paths, verified
 4. Token accounting with per-agent, per-workflow, per-month budgets and alerts
@@ -153,9 +156,11 @@ Phase 1 is reversible at every milestone.
 
 All four COO conditions met and documented:
 
-1. ☐ Paperclip adversarial test passed and documented — M9
+1. ☐ Paperclip adversarial test passed and documented — M9 (now a go/no-go on the governance approach, not just the product)
 2. ☐ Credential vault live, no plain-text keys, verified — M3
 3. ☐ Backup and restore test passed against actual memory and config state — M7
-4. ☑ Sean confirmed as operational owner — **met at approval**
+4. ☐ **Technical owner named** — **VOID as previously answered.** The condition stands; its answer does not. See R-010.
+
+Plus, and ahead of all four: ☐ **M0 departing-admin access review complete** (R-011).
 
 Plus: smoke test passed (M11), rollback procedure written and tested (M12), no department system of record touched.
