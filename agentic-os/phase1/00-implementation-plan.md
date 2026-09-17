@@ -22,7 +22,8 @@ Phase 1 cannot start without these. Every milestone below depends on them.
 | n8n instance access | Audit for the LLM-call-should-be-a-branch defect | **Not received** |
 | Hermes agent source | Confirm or reverse the Reset recommendation | **Not received** |
 | BAA status | Class C path gating | **Not confirmed** |
-| **Technical owner named** | **Condition 4 — VOID as answered; see R-010** | **BLOCKING** |
+| **Technical owner named** | **Condition 4 — VOID as answered; see R-010.** Complete Section 1 of `05-system-ownership-and-continuity.md` | **BLOCKING** |
+| **Emergency vendor engagement letter** | Contingency (Section 4.4 of `05`) — a procurement cycle during an incident is a failed contingency | **BLOCKING** |
 
 **Delivery:** through whatever secret-sharing mechanism IT already uses. Not through this channel. No plain-text credentials anywhere, per operating rule 5.
 
@@ -159,7 +160,7 @@ All four COO conditions met and documented:
 1. ☐ Paperclip adversarial test passed and documented — M9 (now a go/no-go on the governance approach, not just the product)
 2. ☐ Credential vault live, no plain-text keys, verified — M3
 3. ☐ Backup and restore test passed against actual memory and config state — M7
-4. ☐ **Technical owner named** — **VOID as previously answered.** The condition stands; its answer does not. See R-010.
+4. ☐ **Technical owner named** — **VOID as previously answered.** The condition stands; its answer does not. See R-010. Satisfied by a signed `05-system-ownership-and-continuity.md` with Section 1 complete.
 
 Plus, and ahead of all four: ☐ **M0 departing-admin access review complete** (R-011).
 

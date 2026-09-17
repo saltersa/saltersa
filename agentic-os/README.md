@@ -37,6 +37,7 @@ Operating infrastructure for the COO's seven accountability domains: property an
 | [`02-risk-analysis.md`](phase1/02-risk-analysis.md) | Risk register R-001 … R-009, accepted residual risk |
 | [`03-systems-of-record-audit.md`](phase1/03-systems-of-record-audit.md) | Live M365 audit — resolves Q1, surfaces R-005/R-006/R-007 |
 | [`04-it-director-removal-impact.md`](phase1/04-it-director-removal-impact.md) | **Role elimination: simplification, cost, access review (R-010/011/012)** |
+| [`05-system-ownership-and-continuity.md`](phase1/05-system-ownership-and-continuity.md) | **Signable ownership + continuity plan. Swap owner by editing Section 1 only.** |
 
 ---
 

@@ -140,7 +140,7 @@ This distinction is load-bearing and belongs in any compliance conversation abou
 
 **Risk.** Phase 1 was approved on four conditions, the fourth being "Sean confirmed as owner." A role that is being eliminated cannot satisfy it. Beyond ownership, the Phase 0 architecture assumed a senior technical owner existed: nine components, seven self-hosted, on infrastructure requiring patching and upgrade management. Without one, the platform becomes an orphan — running, unpatched, until something breaks that nobody can fix.
 
-**Controls.** (a) Simplify to five components, managed-first — `04-it-director-removal-impact.md`. (b) Name a technical owner before Phase 1 starts: internal, contracted, or MSP. **Condition 4 stands; only its answer changed.**
+**Controls.** (a) Simplify to five components, managed-first — `04-it-director-removal-impact.md`. (b) Name a technical owner before Phase 1 starts: internal, contracted, or MSP. **Condition 4 stands; only its answer changed.** (c) **`05-system-ownership-and-continuity.md`** — the signable plan. Ownership swaps between Director of IT and Aspen Technology by editing Section 1 alone; the COO is named Backup Owner for continuity only, with a non-technical emergency halt procedure.
 
 **Cost consequence, stated plainly.** The 9–11 hours per month did not appear with the role elimination — it was always there, inside a salary line. Removing the role converts it from salary to invoice and, per hour, likely raises it. Estimated **$1,000–2,500/month ($12–30k annually)** moving from payroll to contract services. Still comes out of labor share as the 990 reports it, but it is not a saving and must not be presented as one.
 
@@ -201,6 +201,6 @@ This distinction is load-bearing and belongs in any compliance conversation abou
 | R-007 | Possible legacy M365 tenant | Open — **ask before departure** | Reassign |
 | R-008 | Facilities-first precedes proven scrubber | Open — controls are gates | COO / Build |
 | R-009 | Observability substrate moved into Phase 1 | Open — scoped | Build |
-| **R-010** | **No internal technical owner; Condition 4 void** | **Open — BLOCKS PHASE 1** | **COO** |
+| **R-010** | **No internal technical owner; Condition 4 void** | **Open — BLOCKS PHASE 1.** Plan drafted (`05`); needs Section 1 completed + emergency engagement letter | **COO** |
 | **R-011** | **Departing-admin access review** | **Open — URGENT, time-boxed** | **COO / HR / IT** |
 | **R-012** | IT agent has no charter co-signer | Open — structural | COO |
