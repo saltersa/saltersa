@@ -33,7 +33,22 @@ campaign now traces to one of them.
 
 ## BLOCKER: OUTBOUND WEB ACCESS IS DISABLED IN THIS ENVIRONMENT
 
-Date encountered: 2026-08-31.
+Date encountered: 2026-08-31. **Partially changed 2026-09-18, see the update immediately
+below before reading the rest of this section.**
+
+> **UPDATE 2026-09-18. Search works now. Fetching still does not.**
+>
+> Web search returns results in this session, where on 2026-08-31 it returned nothing. Opening
+> a page is still refused. Every domain attempted on 2026-09-18 was blocked by the egress
+> proxy: www.nj.gov, wdhafm.com, grantcue.com, law.justia.com, hfnj.org.
+>
+> **What this changes.** Research that was impossible is now possible at Level B. The state
+> capital programme finding in `capital_stack.md` came out of this.
+>
+> **What it does not change.** Level A is still unreachable, because Level A requires opening
+> the official page. Campaign rules 1 and 2 are unaffected. Nothing found by search on
+> 2026-09-18 may appear in outreach material. The Week 1 phone verification sprint is still the
+> only route to Level A, and it now has two more calls to make, both in `capital_stack.md`.
 
 This session runs in a sandbox whose network egress policy blocks outbound HTTPS to
 effectively all public websites. Every attempt to open an official government page was
@@ -243,6 +258,34 @@ These are recorded so the work is not lost. Each must be re-checked at Level A b
 
 ---
 
+## LEVEL B, CAPITAL FUNDING SOURCES, RESEARCHED 2026-09-18
+
+Prompted by a foundation prospecting playbook Antonio supplied on 2026-09-18. Full reasoning is
+in `capital_stack.md`. All of it is Level B. None of it may be used in outreach.
+
+| Claim | Attributed to | Level |
+|---|---|---|
+| Special Needs Housing Partnership Loan Program, NJHMFA with DCA and DHS DDD, finances permanent supportive housing and community residences for individuals with developmental disabilities | nj.gov/dca/hmfa/developers/docs/supportivehousing/sn_housing_partnership_loan_guidelines.pdf | B |
+| SNHPLP funds acquisition and rehabilitation of existing three to four bedroom single family houses and first floor three to four bedroom condominiums | same | B |
+| SNHPLP loans not to exceed $125,000 per bed, capped at $500,000 per property | same | B |
+| The $500,000 cap includes municipal Affordable Housing Trust Fund dollars and other municipal funds | same | B |
+| Acquisition and all rehabilitation to be completed within six months of mortgage closing | same | B |
+| Special Needs Housing Trust Fund established by P.L. 2005 c. 163, priority to individuals with mental illness | nlihc.org/node/96216, law.cornell.edu N.J.A.C. 5:43-3.3 | B |
+| Waldwick project: eight bedrooms, two two story residences, $2.6 million total, more than $1 million from the Special Needs Housing Trust Fund | nj.gov/dca/hmfa/about/pressreleases/2026/approved/20260721.shtml, re-nj.com | B |
+| Waldwick also financed by Bergen County HOME Investment Partnerships Program and the Federal Home Loan Bank, first residents 2027 | same | B |
+| NJHMFA Multifamily and Supportive Housing and Lending Division, 609-278-8884 | search attribution, no official page opened | B |
+| Healthcare Foundation of NJ serves greater Newark and Jewish MetroWest: Essex, Morris, Somerset, Union, parts of Sussex | hfnj.org/grant-guidelines/ | B |
+| Kessler Foundation funds employment, Signature and Community Employment Grants, over $50 million since 2005 | kesslerfoundation.org | B |
+| Hyde and Watson Foundation: capital only, NYC plus Essex, Morris and Union, grants $5,000 to $20,000, windows 15 Dec to 1 Feb and 15 Jun to 1 Aug | hydeandwatson.org | B |
+| Russell Berrie Foundation priorities are Jewish communal life, diabetes and humanism in medicine, and interfaith work | russellberriefoundation.org | B |
+| Form 990-PF 2023: grants paid at Part XIV line 3, application information at Part XIV line 2 | irs.gov/pub/irs-prior/i990pf--2023.pdf | B |
+| FunderMatch and 990 Scout (philanthropy.org/990) are free 990 research tools that resolve | fundermatch.org, philanthropy.org/990 | B |
+
+**GrantCue could not be confirmed to exist.** It was named as the first tool in the supplied
+playbook. It returned nothing in search and grantcue.com is blocked. Treat as Level C.
+
+---
+
 ## LEVEL C: QUARANTINED UNVERIFIED LEADS, DO NOT USE IN ANY DRAFT
 
 These are written down only so the lead is not lost when access is restored. They must not
@@ -299,7 +342,14 @@ Still open, in priority order:
 7. **Guttenberg program** carries a Bergenfield address. Legacy name or file error?
 8. **Fire suppression and generators.** Both columns are empty for all 27 rows. Unrecorded or
    absent? It matters for a 24 hour nursing facility.
-9. **Network access.** Still blocked. No official contact can be verified from this session.
+9. **Network access.** Search works as of 2026-09-18, fetching does not. No official contact
+   can still be verified from this session. See the update at the top of this log.
+10. **The $1 million.** Where did it come from and what does it assume per bed? The one external
+    Bergen County comparable found, Waldwick, ran $2.6 million for eight beds. See
+    `capital_stack.md`.
+11. **Bedroom count.** `schedule.md` says design at six for the zoning protection. SNHPLP is
+    described as funding three to four bedroom houses. These conflict and the answer decides
+    what building to look for.
 
 ---
 

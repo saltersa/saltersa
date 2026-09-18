@@ -7,15 +7,18 @@ Middlesex. Built 2026-08-31, updated 2026-09-03.
 
 ## START HERE
 
-**If you read three things, read these, in this order.**
+**If you read four things, read these, in this order.**
 
 1. **`schedule.md`** 485 days to occupancy. The state zoning finding, why ground up
    construction does not fit, and why property you already own is the fastest path. Site
    control needed by roughly 1 January 2027. Read it before anything else.
-2. **`operating_plan.md`** Can this campaign deliver? The honest answer and the six things
+2. **`capital_stack.md`** Who pays for the building. A state programme funds acquisition and
+   rehabilitation for developmental disabilities at up to $500,000 per property and Spectrum has
+   never applied. Added 2026-09-18. It reorders the funding work and puts foundations fourth.
+3. **`operating_plan.md`** Can this campaign deliver? The honest answer and the six things
    that need fixing.
-3. **`run_sheet.md`** What happens on Monday. Week by week, owner by owner, with counts.
-4. **`strategy.md`** Why the targets are in this order and what to say to each.
+4. **`run_sheet.md`** What happens on Monday. Week by week, owner by owner, with counts.
+5. **`strategy.md`** Why the targets are in this order and what to say to each.
 
 Then `playbook.md` before your first meeting, not after.
 
@@ -40,6 +43,11 @@ Nothing starts until Antonio clears these. Four take minutes.
    care facility? It decides whether the state zoning protection applies. See `schedule.md`.
 6. **Who does the verification calls and logging?** The last unassigned piece. See
    `antonio_focus.md`.
+7. **Call NJHMFA about the Special Needs Housing Partnership Loan Program.** It funds
+   acquisition and rehabilitation for developmental disabilities at up to $500,000 per property
+   and Spectrum has never applied. Four questions, one call. See `capital_stack.md`.
+8. **Call Bergen County about its HOME programme.** Bergen County HOME money went into an
+   eight bedroom supportive housing project in Waldwick in July 2026. See `capital_stack.md`.
 
 ---
 
@@ -49,6 +57,7 @@ Nothing starts until Antonio clears these. Four take minutes.
 
 | File | What it is |
 |---|---|
+| `capital_stack.md` | **Read this second.** The state and county capital sources, why foundations are fourth, and the Bergen County comparable. |
 | `schedule.md` | **Read this first.** 485 days. The state zoning finding, the paths, and why property you already own is fastest. |
 | `antonio_focus.md` | The twelve contacts worth your time, and what comes off your desk. |
 | `operating_plan.md` | The critical read. Schedule risk, funnel math, staffing, gates, risk register. |
@@ -98,6 +107,8 @@ Nothing starts until Antonio clears these. Four take minutes.
   residence is a permitted use in every residential district. Verify with counsel, then
   negotiate from a settled position. Design at six.
 - **The schedule is the real risk.** 485 days, no site, and only a renovation path fits.
+- **Ask the state before you ask a foundation.** The largest single source found is $500,000
+  from one NJHMFA programme built for this exact project. Foundations are fourth in the stack.
 
 ---
 
